@@ -1,0 +1,191 @@
+\usepackage{tabularx}
+
+\usepackage{hyphenat}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\usepackage{geometry}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{titlesec}
+\usepackage[fontsize=14pt]{fontsize}
+
+% Пакет для содержания
+\usepackage{tocloft}
+\usepackage{hyperref}
+
+% Language
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{csquotes}
+\setmainlanguage{russian}
+\newfontfamily{\cyrillicfonttt}{Times New Roman}
+\setmainfont{Times New Roman}
+
+\geometry{a4paper, top=2cm, left=2cm, bottom=2cm, right=1cm, includefoot, foot=14pt}
+
+\renewcommand{\baselinestretch}{1.5}
+%\setlength{\baselineskip}{1.5cm}
+%\setstretch{1.5cm}
+%\linespread{1.5}
+
+\setlength{\parindent}{1.25cm}
+% \setlist[itemize]{nosep,leftmargin=1.27cm,itemindent=0mm}
+% \setlist[enumerate]{nosep,leftmargin=1.27cm,itemindent=0mm}
+
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
+% \setlist[itemize]{nosep, leftmargin=0pt, labelindent=1.27cm, itemindent=*, label={-}}
+\setlist[itemize]{nosep, leftmargin=0pt, labelindent=1.25cm, itemindent=*}
+\setlist[enumerate]{nosep, leftmargin=0pt, labelindent=1.25cm, itemindent=*}
+
+\titleformat{\section}[block]{\normalfont\normalsize\normalfont}{\hspace*{1.25cm}Глава~\thesection. }{0pt}{}{}
+\titleformat{name=\section,numberless}[block]{\normalfont\normalsize\normalfont}{\hspace*{1.25cm}}{0pt}{}{}
+\titleformat{\subsection}[block]{\normalsize\normalfont}{\hspace*{1.25cm}\thesubsection. }{0pt}{}{}
+
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+
+\hyphenpenalty=10000 \spaceskip=0.3em plus 2em minus 0.2em
+
+\renewcommand{\contentsname}{Содержание}
+\renewcommand{\figurename}{Рисунок}
+
+%\renewcommand{\cfttoctitlefont}{\hspace{0.31\textwidth} \bfseries\Large}
+\renewcommand{\cfttoctitlefont}{\normalsize}
+\renewcommand{\cftsecfont}{\normalsize}
+
+\renewcommand{\cftbeforetoctitleskip}{0em}
+\renewcommand{\cftaftertoctitleskip}{0em}
+\renewcommand{\cftsecpresnum}{Глава~}
+
+\newlength\mylength
+%\settowidth\mylength{\cftsecpresnum}
+%\addtolength\cftsecnumwidth{\mylength}
+
+
+% Строки с точками
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+% Точки после цифр в в содержании
+\renewcommand{\cftsecaftersnum}{.}
+\renewcommand{\cftsubsecaftersnum}{.}
+
+% Подровнять subsection под точку главы
+% (если глав будет больше десяти, будет чуть хуже)
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftsubsecindent}{1.32cm}
+% Интервал глав
+\setlength{\cftbeforesecskip}{0pt}
+%\renewcommand{\cftsecpagefont}{\normalfont}
+
+\setlength{\cftsecnumwidth}{2.3cm}
+\setlength{\cftsubsecnumwidth}{1cm}
+
+\renewcommand{\cftsecpagefont}{}
+\usepackage[parentracker=true,
+  backend=biber,
+  hyperref=auto,
+  language=russian,
+  autolang=other,
+  citestyle=gost-numeric,
+  defernumbers=true,
+  bibstyle=gost-footnote,
+  sorting=none
+]{biblatex}
+
+\usepackage{csquotes}
+
+\addbibresource{references.bib}
+
+\DeclareFieldFormat{labelnumberwidth}{#1\addperiod}
+      
+\defbibenvironment{gostbibliography}
+  {\enumerate[noitemsep, labelindent=1.27cm, leftmargin=0cm, itemindent=*]
+     %{\printtext[labelnumberwidth]{%
+	%  \printfield{labelprefix}%
+	  %\printfield{labelnumber}}}
+     {}
+     {\toggletrue{bbx:gostbibliography}%
+      \renewcommand*{\revsdnamepunct}{\addcomma}%
+      \renewcommand*{\labelnamepunct}{\addperiod\space}%
+      \renewcommand*{\bibname}{\hspace{1.27cm}Список используемых источников}
+      %\setlength{\leftmargin}{\bibhang}%
+      %\setlength{\itemindent}{\leftmargin}%
+      %\setlength{\itemsep}{\bibitemsep}%
+      %\setlength{\parsep}{\bibparsep}
+      %\setlength{\leftmargin}{0cm}
+      %\setlength{\labelindent}{0cm}
+      %\setlength{\itemsep}{\bibitemsep}
+      }
+      }
+    {\endenumerate}
+    {\item}
+
+\DeclareFieldFormat{urldate}{(дата обращения #1)}
+
+\usepackage{caption}
+\usepackage{ragged2e}
+
+\DeclareCaptionLabelSeparator{bar}{.}
+\DeclareCaptionLabelSeparator{empt}{}
+%\captionsetup[figure]{labelsep=bar}
+%\captionsetup[table]{labelsep=endl,justification=raggedleft,singlelinecheck=off,skip=0pt}
+
+
+
+\DeclareCaptionFormat{forfigure}
+{%
+    \hfill \\
+    #1#2 #3
+    %\hfill\\
+}
+
+\DeclareCaptionFormat{fortable}
+{
+    \raggedleft #1#2 \\ \justifying \indent #3
+}
+
+\captionsetup[figure]
+{
+  format=forfigure,
+  labelsep=bar,
+  justification=centering
+  %skip=0pt
+}
+
+\captionsetup[table]
+{
+  format=fortable,
+  labelsep=empt,
+  %justification=raggedleft,
+  singlelinecheck=off
+}
+%\setlength{\belowcaptionskip}{0\baselineskip}
+\setlength{\belowcaptionskip}{0\parskip}
+
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+\usepackage{listings}
+
+\lstset{basicstyle=\rmfamily,
+  showstringspaces=false,
+  commentstyle=\color{red},
+  %keywordstyle=\color{blue}
+  keywordstyle=\rmfamily,
+  aboveskip=0pt,
+  belowskip=0pt,
+  %numbers=left,
+}
+
+\expandafter\def\expandafter\normalsize\expandafter{%
+  %\setlength{\abovedisplayskip}{0pt}
+  %\setlength{\belowdisplayskip}{0pt}
+  %\setlength{\abovedisplayshortskip}{0pt}
+  %\setlength{\belowdisplayshortskip}{0pt}
+}
+
+\usepackage{mdwlist}
+
+\newcommand{\sectionA}[1]{
+  \titleformat{\section}[block]{\normalfont\normalsize\raggedleft}{Приложение \thesection\\}{0pt}{}{}
+  \section{#1}
+}

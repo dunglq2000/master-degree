@@ -1,0 +1,37 @@
+\documentclass[tikz]{standalone}
+
+\usepackage{fontspec}
+\usetikzlibrary{positioning}
+\setmainfont{CMU Serif}
+
+\begin{document}
+\begin{tikzpicture}
+    \node [rectangle, draw, align=center] (src) { И \\ С \\ Т \\ О \\ Ч \\ Н \\ И \\ К };
+    \node [right=1cm of src, circle, draw] (x2) {$x_2$};
+    \node [above=1cm of x2, circle, draw] (x1) {$x_1$};
+    \node [below=1cm of x2, circle, draw] (x3) {$x_3$};
+    \node [right=2cm of x1, circle, draw] (y1) {$y_1$};
+    \node [right=2cm of x2, circle, draw] (y2) {$y_2$};
+    \node [right=2cm of x3, circle, draw] (y3) {$y_3$};
+    \node [right=2cm of y1, circle, draw] (z1) {$z_1$};
+    \node [right=2cm of y2, circle, draw] (z2) {$z_2$};
+    \node [right=2cm of y3, circle, draw] (z3) {$z_3$};
+    \node [rectangle, draw, align=center, right=1cm of z2] (dst) { П \\ Р \\ И \\ Е \\ М \\ Н \\ И \\ К };
+
+    \draw [->] (x1) -- node [left] {$J_{x12}$} (x2);
+    \draw [->] (x2) -- node [left] {$J_{x23}$} (x3);
+    \draw [->] (y1) -- node [left] {$J_{y12}$} (y2);
+    \draw [->] (y2) -- node [left] {$J_{y23}$} (y3);
+    \draw [->] (z1) -- node [left] {$J_{z12}$} (z2);
+    \draw [->] (z2) -- node [left] {$J_{z23}$} (z3);
+
+    \draw [->] (x1) -- node [above] {$K_{1xy}$} (y1);
+    \draw [->] (y1) -- node [above] {$K_{1yz}$} (z1);
+    \draw [->] (x2) -- node [above] {$K_{2xy}$} (y2);
+    \draw [->] (y2) -- node [above] {$K_{2yz}$} (z2);
+    \draw [->] (x3) -- node [above] {$K_{3xy}$} (y3);
+    \draw [->] (y3) -- node [above] {$K_{3yz}$} (z3);
+
+
+\end{tikzpicture}
+\end{document}

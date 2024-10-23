@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+
+\usepackage{fontspec}
+\usetikzlibrary{positioning}
+\setmainfont{CMU Serif}
+
+\begin{document}
+\begin{tikzpicture}
+    \node [circle, draw] (x2) {$x_2$};
+    \node [above=1cm of x2, circle, draw] (x1) {$x_1$};
+    \node [above=.25cm of x1] (x1_) {$x_1 = y_1 = z_1$};
+    \node [below=.25cm of x2] (x2_) {$x_2 = y_2 = z_2$};
+
+    \draw [->] (x1) -- node [right] {$J_{x12} = J_{z12}$} (x2);
+\end{tikzpicture}
+\end{document}

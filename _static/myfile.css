@@ -1,0 +1,9 @@
+body {
+    --font-size: 12pt;
+    --admonition-font-size: 12pt;
+    --admonition-title-font-size: 12pt;
+}
+
+p {
+    text-align: justify;
+}

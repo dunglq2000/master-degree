@@ -1,0 +1,27 @@
+\documentclass[tikz]{standalone}
+
+\usepackage{fontspec}
+\usetikzlibrary{positioning}
+\setmainfont{CMU Serif}
+
+\begin{document}
+\begin{tikzpicture}
+    \node [circle, draw] (x2) {$x_2$};
+    \node [above=1cm of x2, circle, draw] (x1) {$x_1$};
+    \node [right=2cm of x1, circle, draw] (y1) {$y_1$};
+    \node [right=2cm of x2, circle, draw] (y2) {$y_2$};
+    \node [right=2cm of y1, circle, draw] (z1) {$z_1$};
+    \node [right=2cm of y2, circle, draw] (z2) {$z_2$};
+    \node [right=.25cm of z1] (z1_) {$z_1 = y_1 = x_1$};
+    \node [right=.25cm of z2] (z2_) {$z_1 = y_1 = x_1$};
+
+    \draw [->] (x1) -- node [left] {$J_{x12}$} (x2);
+    \draw [->] (y1) -- node [left] {$J_{y12}$} (y2);
+    \draw [->] (z1) -- node [right] {$J_{z12} = J_{y12} = J_{x12}$} (z2);
+
+    \draw [->] (x1) -- node [above] {$K^\circ$} (y1);
+    \draw [->] (y1) -- node [above] {$K^\circ$} (z1);
+    \draw [->] (x2) -- node [above] {$K^\circ$} (y2);
+    \draw [->] (y2) -- node [above] {$K^\circ$} (z2);
+\end{tikzpicture}
+\end{document}
