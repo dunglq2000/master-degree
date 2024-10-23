@@ -54,6 +54,7 @@ parts:
     - file: database/README.md
     - file: database/lecture-1.md
     - file: database/lecture-2.md
+    - file: database/lecture-3.md
   - caption: Руский язык
     chapters:
     - file: russian/README.md
