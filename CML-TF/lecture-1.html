@@ -7,7 +7,7 @@
 
     <!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
         <title>Лекция 1. Понятие «отмывание денег». Макроэкономические последствия отмывания денег - Đây là tiêu đề</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
@@ -22,7 +22,7 @@
 
 <style>
   body {
-    --color-code-background: #eeffcc;
+    --color-code-background: #f8f8f8;
   --color-code-foreground: black;
   
   }
@@ -260,6 +260,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../database/README.html">Специальные технологии баз данных и информационных систем</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../database/lecture-1.html">Лекция 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../database/lecture-2.html">Лекция 2 - Введение в Hadoop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../database/lecture-3.html">Лекция 3. Apache Spark: Часть 1</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Руский язык</span></p>
 <ul>
@@ -313,46 +314,94 @@
 <section id="id2">
 <h2>Проблема отмывания денег<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
 <p>Цель большинства преступлений это получение экономической выгоды.</p>
+<p>Mục đích của hầu hết các tội phạm là thu được lợi ích kinh tế.</p>
+<hr class="docutils" />
 <p><strong>Легализация (отмывание) доходов</strong> полученных преступным путем, позволяет скрыть незаконные источники прибыли и таким образом превращает противозаконную деятельность в высокодоходный вид предпринимательства Согласно различным экспертным оценкам, каждый год отмывается более двух триллионов долларов США</p>
+<p>**Hợp pháp hóa (rửa tiền) số tiền thu được từ tội phạm giúp che giấu các nguồn lợi nhuận bất hợp pháp và do đó biến các hoạt động bất hợp pháp thành một loại hình kinh doanh có lợi nhuận cao, theo ước tính của nhiều chuyên gia, hơn hai nghìn tỷ đô la Mỹ được rửa mỗi năm.</p>
+<hr class="docutils" />
 <p>Сегодня <strong>отмывание денег стало общемировой проблемой</strong>.</p>
+<p>Ngày nay <strong>rửa tiền đã trở thành một vấn đề toàn cầu</strong>.</p>
+<hr class="docutils" />
 <p>Легализация преступных доходов затрагивает не только наличную денежную массу и деятельность кредитных институтов.</p>
+<p>Việc hợp pháp hóa tiền thu được từ tội phạm không chỉ ảnh hưởng đến nguồn cung tiền mặt và hoạt động của các tổ chức tín dụng.</p>
+<hr class="docutils" />
 <p>Участники процесса отмывания денег диверсифицируют свою деятельность, осуществляя операции в различных секторах финансовых и нефинансовых услуг.</p>
+<p>Những kẻ rửa tiền đa dạng hóa hoạt động của mình bằng cách hoạt động trong nhiều lĩnh vực dịch vụ tài chính và phi tài chính.</p>
 </section>
 <section id="id3">
 <h2>Понятие отмывания денег<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
 <p>Юридическое и законодательное определение понятия отмывания денег впервые появилось в
 США в <strong>70-х - 80-х годах ХХ века</strong>.</p>
+<p>Định nghĩa pháp lý và lập pháp về rửa tiền lần đầu tiên xuất hiện vào năm
+Hoa Kỳ những năm <strong>70 - 80 của thế kỷ XX</strong>.</p>
+<hr class="docutils" />
 <p>В то время данный термин означал процесс преобразования нелегально полученных доходов, прежде всего от реализации наркотиков, в легальные.</p>
+<p>Vào thời điểm đó, thuật ngữ này có nghĩa là quá trình chuyển đổi thu nhập có được bất hợp pháp, chủ yếu từ việc bán ma túy, thành thu nhập hợp pháp.</p>
+<hr class="docutils" />
 <p>Определенную роль в формировании юридического и законодательного определения понятия отмывания денег сыграл и так называемый Уотергейтский скандал, разгоревшийся в США в начале 1970 х годов и приведший впоследствии к отставке Президента Р Никсона.</p>
+<p>Cái gọi là vụ bê bối Watergate, nổ ra ở Hoa Kỳ vào đầu những năm 1970 và sau đó dẫn đến việc Tổng thống R. Nixon từ chức, cũng đóng một vai trò nhất định trong việc hình thành định nghĩa pháp lý và lập pháp về khái niệm rửa tiền.</p>
+<hr class="docutils" />
 <p>В России понятие отмывания денежных средств определено <strong>Федеральным Законом № 115 ФЗ от 7 августа 2001 года «О противодействии легализации (отмыванию) доходов, полученных
 преступным путем, и финансированию терроризма»</strong>.</p>
+<p>Ở Nga, khái niệm rửa tiền được định nghĩa <strong>Luật Liên bang số 115 FZ ngày 7 tháng 8 năm 2001 “Về chống hợp pháp hóa (rửa tiền) thu nhập nhận được
+tội phạm và tài trợ cho khủng bố”</strong>.</p>
+<hr class="docutils" />
 <p>Под легализацией (отмыванием) доходов, полученных преступным путем, понимается <strong>придание правомерного вида владению, пользованию или распоряжению денежными средствами или иным имуществом, полученными в результате совершения преступления</strong>.</p>
+<p>Hợp pháp hóa (rửa tiền) tiền thu được từ tội phạm có nghĩa là <strong>đưa ra hình thức pháp lý cho việc sở hữu, sử dụng hoặc định đoạt tiền hoặc tài sản khác có được do phạm tội</strong>.</p>
 </section>
 <section id="id4">
 <h2>История отмывания денег<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
 <p>Отмывание денег подразумевает <strong>придание правомерного вида</strong> владению, пользованию или распоряжению денежными средствами или иным имуществом, <strong>полученными в результате нарушения закона</strong>.</p>
+<p>Rửa tiền liên quan đến việc <strong>xuất hiện hợp pháp</strong> đối với việc sở hữu, sử dụng hoặc xử lý tiền hoặc tài sản khác <strong>có được do vi phạm pháp luật</strong>.</p>
+<hr class="docutils" />
 <p>Основная характерная черта отмывания денег <strong>криминальное происхождение капиталов</strong>, предназначенных для легализации (капиталы получены в результате торговли наркотиками, контрабанды оружия, коррупции).</p>
+<p>Đặc điểm chính của rửa tiền là nguồn gốc tội phạm của vốn** nhằm mục đích hợp pháp hóa (vốn có được do buôn bán ma túy, buôn lậu vũ khí, tham nhũng).</p>
+<hr class="docutils" />
 <p>Таким образом, отмываемые доходы получены легализатором, либо иным лицом, в результате совершения предикатных преступлений</p>
+<p>Do đó, số tiền rửa tiền đã được người hợp pháp hóa hoặc người khác nhận được do phạm tội</p>
+<hr class="docutils" />
 <p>Одни из первых схем отмывания денег были связаны с деятельностью <strong>игорных заведений</strong> и были призваны <strong>замаскировать выручку</strong> которую американская мафия получала от торговли наркотиками Гангстеры добавляли к ежедневной выручке казино средства, полученные от реализации наркотиков, таким образом, маскируя их под прибыль этих заведений</p>
+<p>Một số kế hoạch rửa tiền đầu tiên có liên quan đến hoạt động của <strong>cơ sở đánh bạc</strong> và được thiết kế để <strong>ngụy trang số tiền</strong> mà mafia Mỹ nhận được từ việc buôn bán ma túy. doanh thu hàng ngày của sòng bạc, do đó ngụy trang chúng dưới dạng lợi nhuận của các cơ sở này</p>
+<hr class="docutils" />
 <p>В США в ХХ веке была распространена так называемая <strong>«схема с пиццерией»</strong>. Полученные от реализации наркотиков деньги мафия отмывала через кассы франшизной сети пиццерий, добавляя к ежедневной выручке этих заведений доходы от наркоторговли</p>
+<p>Ở Hoa Kỳ vào thế kỷ 20, cái gọi là <strong>“kế hoạch tiệm bánh pizza”</strong> đã phổ biến rộng rãi. Mafia đã rửa số tiền nhận được từ việc bán ma túy thông qua máy tính tiền của một chuỗi cửa hàng bánh pizza nhượng quyền, thêm tiền thu được từ việc buôn bán ma túy vào doanh thu hàng ngày của các cơ sở này.</p>
+<hr class="docutils" />
 <p>Сегодня известно <strong>множество методов и способов отмывания денег</strong> которые постоянно совершенствуются</p>
+<p>Ngày nay có <strong>nhiều phương pháp và phương pháp rửa tiền</strong> không ngừng được cải tiến</p>
+<hr class="docutils" />
 <p><strong>Самыми распространёнными схемами являются:</strong></p>
 <ul class="simple">
 <li><p>Самоотмывание</p></li>
 <li><p>Использование профессиональных легализаторов</p></li>
 </ul>
+<p><strong>Các sơ đồ phổ biến nhất là:</strong></p>
+<ul class="simple">
+<li><p>Tự rửa</p></li>
+<li><p>Sử dụng dịch vụ hợp pháp hóa chuyên nghiệp</p></li>
+</ul>
 </section>
 <section id="id5">
 <h2>Использование наличных денежных средств в целях ОД<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h2>
 <p>В современном мире одним из наиболее криминогенных институтов являются наличные деньги, так как <strong>их оборот проследить невозможно</strong>.</p>
+<p>Trong thế giới hiện đại, một trong những tổ chức tội phạm nhất là tiền mặt, vì <strong>không thể theo dõi sự lưu thông của nó</strong>.</p>
+<hr class="docutils" />
 <p>Преступления в сфере безналичного денежного обращения тесно связаны с наличными деньгами, поскольку предусматривают процесс обналичивания</p>
+<p>Các tội phạm trong lĩnh vực lưu thông không dùng tiền mặt có liên quan chặt chẽ đến tiền mặt vì chúng liên quan đến quá trình rút tiền mặt.</p>
+<hr class="docutils" />
 <p><strong>Проблема криминализации операций с наличными деньгами чрезвычайно важна для России</strong> в которой высокий уровень преступности тесно связан с высоким развитием наличного денежного обращения</p>
+<p><strong>Vấn đề hình sự hóa các giao dịch tiền mặt là cực kỳ quan trọng đối với Nga</strong> trong đó tỷ lệ tội phạm cao có liên quan mật thiết đến sự phát triển cao của lưu thông tiền mặt</p>
 </section>
 <section id="id6">
 <h2>Инструменты ПОД/ФТ<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
 <p>Современное мировое сообщество осознаёт, что отмывание преступных доходов и финансирование терроризма представляют собой <strong>два опаснейших типа финансовых преступлений</strong>.</p>
+<p>Cộng đồng thế giới hiện đại nhận thức được rằng rửa tiền và tài trợ khủng bố là <strong>hai trong số những loại tội phạm tài chính nguy hiểm nhất</strong>.</p>
+<hr class="docutils" />
 <p>Борьба с отмыванием денег и финансированием терроризма стала одним их приоритетных направлений борьбы с организованной преступностью</p>
+<p>Cuộc chiến chống rửa tiền và tài trợ khủng bố đã trở thành một trong những lĩnh vực ưu tiên trong cuộc chiến chống tội phạm có tổ chức.</p>
+<hr class="docutils" />
 <p><strong>Уголовная ответственность</strong> за легализацию доходов, полученных преступным путем, обусловлена следующими факторами</p>
+<p><strong>Trách nhiệm hình sự</strong> đối với hành vi rửa tiền được xác định bởi các yếu tố sau</p>
+<hr class="docutils" />
 <p>Использование инструментов ПОД/ФТ для целей борьбы с организованной преступностью</p>
 <ul class="simple">
 <li><p><strong>Защита прав и законных интересов</strong> граждан, общества и государства</p></li>
@@ -360,10 +409,19 @@
 <li><p>Невозможность противодействия легализации доходов в полной мере только гражданско правовыми и административными мерами</p></li>
 <li><p>Необходимость эффективного <strong>противодействия финансированию террористов</strong></p></li>
 </ul>
+<p>Sử dụng các công cụ AML/CFT để chống tội phạm có tổ chức</p>
+<ul class="simple">
+<li><p><strong>Bảo vệ quyền và lợi ích hợp pháp</strong> của công dân, xã hội và nhà nước</p></li>
+<li><p><strong>Mức độ gây tổn hại cao</strong> đối với các tổ chức kinh doanh cũng như lợi ích kinh tế và chính trị của nhà nước</p></li>
+<li><p>Không thể chống rửa tiền hoàn toàn chỉ thông qua các biện pháp hành chính và pháp lý dân sự</p></li>
+<li><p>Sự cần thiết phải có <strong>chống tài trợ khủng bố hiệu quả</strong></p></li>
+</ul>
 </section>
 <section id="id7">
 <h2>Макроэкономические последствия отмывания денег<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h2>
 <p>Легализованные доходы от незаконных видов деятельности представляют <strong>серьезную опасность для мировой экономики</strong> поскольку эти средства обеспечивают финансирование организованной преступности, в том числе терроризма.</p>
+<p>Tiền thu được hợp pháp hóa từ các hoạt động bất hợp pháp gây ra <strong>mối nguy hiểm nghiêm trọng cho nền kinh tế toàn cầu</strong> vì các quỹ này cung cấp tài chính cho tội phạm có tổ chức, bao gồm cả khủng bố.</p>
+<hr class="docutils" />
 <p><strong>Возможные макроэкономические последствия отмывания денег</strong></p>
 <ul class="simple">
 <li><p>Колебания спроса на капитал, не соответствующие реальным изменениям в экономике</p></li>
@@ -374,11 +432,25 @@
 <li><p>Ошибки в фискальной и денежно кредитной политике вследствие искажений оценок экономической ситуации</p></li>
 <li><p>«Эффект загрязнения» заражение легальных операций предприятий, действующих в криминальной среде</p></li>
 </ul>
+<p><strong>Những hậu quả kinh tế vĩ mô có thể xảy ra của việc rửa tiền</strong></p>
+<ul class="simple">
+<li><p>Những biến động về cầu vốn không tương ứng với những thay đổi thực tế của nền kinh tế</p></li>
+<li><p>Biến động tỷ giá và lãi suất</p></li>
+<li><p>Gia tăng biến động của thị trường chứng khoán</p></li>
+<li><p>Suy giảm chất lượng tài sản của các tổ chức tài chính</p></li>
+<li><p>Bóp méo giá tài sản</p></li>
+<li><p>Sai sót trong chính sách tài khóa và tiền tệ do đánh giá sai lệch về tình hình kinh tế</p></li>
+<li><p>Ô nhiễm “hiệu ứng ô nhiễm” đối với hoạt động hợp pháp của doanh nghiệp hoạt động trong môi trường tội phạm</p></li>
+</ul>
+<hr class="docutils" />
 <p><strong>Приток в экономику «грязных денег» создает благодатную почву для роста преступности</strong>, в том числе такого негативного социально экономического явления, как коррупция, которая, в свою очередь, неблагоприятно сказывается на общем экономическом росте и росте благосостояния населения</p>
+<p><strong>Dòng “tiền bẩn” vào nền kinh tế tạo ra mảnh đất màu mỡ cho tội phạm phát triển</strong>, bao gồm cả hiện tượng kinh tế xã hội tiêu cực như tham nhũng, từ đó ảnh hưởng xấu đến tăng trưởng kinh tế nói chung và phúc lợi của người dân</p>
 </section>
 <section id="id8">
 <h2>Риски для частных фирм<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h2>
 <p>Для отдельных финансовых и нефинансовых институтов сознательное или невольное участие организаций в этом процессе чревато высокими рисками Базельский</p>
+<p>Đối với các tổ chức tài chính và phi tài chính riêng lẻ, việc tổ chức tham gia một cách có ý thức hay vô tình vào quá trình này đều tiềm ẩn nhiều rủi ro Basel</p>
+<hr class="docutils" />
 <p>Комитет по банковскому надзору выделяет следующие <strong>риски, которым подвержены банки, не осуществляющие процедуры внутреннего контроля в целях ПОД/ФТ в случае их использования в целях ОД/ФТ</strong>:</p>
 <ul class="simple">
 <li><p>Риск нанесения ущерба репутации</p></li>
@@ -386,45 +458,95 @@
 <li><p>Риск возникновения правовых последствий</p></li>
 <li><p>Риск концентрации кредитов</p></li>
 </ul>
+<p>Ủy ban Giám sát Ngân hàng xác định các <strong>rủi ro sau mà các ngân hàng không triển khai thủ tục kiểm soát nội bộ cho mục đích AML/CFT sẽ gặp phải nếu chúng được sử dụng cho mục đích ML/TF</strong>:</p>
+<ul class="simple">
+<li><p>Nguy cơ tổn hại danh tiếng</p></li>
+<li><p>Rủi ro tài chính</p></li>
+<li><p>Rủi ro về hậu quả pháp lý</p></li>
+<li><p>Rủi ro tập trung cho vay</p></li>
+</ul>
+<hr class="docutils" />
 <p>Перечисленные выше риски угрожают не только банкам, но и любому другому финансовому или нефинансовому институту, не соблюдающему требования стандартов ПОД/ФТ и потенциально задействованному в схемах отмывания денег</p>
+<p>Những rủi ro được liệt kê ở trên đe dọa không chỉ các ngân hàng mà còn bất kỳ tổ chức tài chính hoặc phi tài chính nào khác không tuân thủ các yêu cầu của tiêu chuẩn AML/CFT và có khả năng liên quan đến các âm mưu rửa tiền.</p>
 </section>
 <section id="id9">
 <h2>Самоотмывание<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h2>
 <p>Самоотмывание <strong>предполагает, что отмывание денег осуществляется непосредственно злоумышленником</strong>, совершившим предикатные преступления, в результате которых им были получены преступные доходы.</p>
+<p>Tự rửa tiền <strong>giả định rằng hoạt động rửa tiền được thực hiện trực tiếp bởi kẻ tấn công</strong>, người đã phạm tội nguồn, do đó anh ta đã nhận được tiền thu được từ hình sự.</p>
+<hr class="docutils" />
 <p>Чтобы <strong>узаконивать и перемещать преступные доходы</strong> злоумышленники обычно используют международные банковские и финансовые системы В отдельных случаях они могут даже «принимать на постоянную работу» служащих банка, чтобы те регулярно проводили от имени преступной организации <strong>сделки по отмыванию денег</strong>.</p>
+<p>Để <strong>hợp pháp hóa và di chuyển số tiền thu được từ tội phạm</strong>, bọn tội phạm thường sử dụng hệ thống tài chính và ngân hàng quốc tế. Trong một số trường hợp, chúng thậm chí có thể “thuê” nhân viên ngân hàng để thường xuyên thực hiện <strong>các giao dịch rửa tiền</strong> thay mặt cho một tổ chức tội phạm.</p>
+<hr class="docutils" />
 <ol class="arabic simple">
 <li><p>На ближайших родственников злоумышленника регистрируются подставные компании.</p></li>
 <li><p>Средства, полученные злоумышленником от незаконной деятельности, перечисляются на счета подставных компаний в счет оплаты товаров и услуг.</p></li>
 <li><p>В результате доходы, полученные преступным путем, представляются как полученные законным способом. После акта легализации доходы остаются в распоряжении злоумышленника.</p></li>
+<li><p>Các công ty vỏ bọc được đăng ký dưới tên người thân trực hệ của kẻ tấn công.</p></li>
+<li><p>Số tiền mà kẻ tấn công nhận được từ các hoạt động bất hợp pháp sẽ được chuyển vào tài khoản của các công ty vỏ bọc để thanh toán hàng hóa và dịch vụ.</p></li>
+<li><p>Do đó, số tiền thu được từ tội phạm được trình bày là thu được thông qua các biện pháp hợp pháp. Sau hành động hợp pháp hóa, số tiền thu được vẫn thuộc quyền sử dụng của kẻ tấn công.</p></li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Самоотмывание là kiểu phổ biến nhất hiện nay.</p>
+</div>
 </section>
 <section id="id10">
 <h2>Профессиональные легализаторы<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h2>
 <p>Некоторые организованные преступные группы <strong>стремятся иметь собственные банки</strong> чтобы облегчить свою деятельность по отмыванию денег</p>
+<p>Một số nhóm tội phạm có tổ chức <strong>tìm cách có ngân hàng riêng</strong> để tạo điều kiện thuận lợi cho các hoạt động rửa tiền của chúng</p>
+<hr class="docutils" />
 <p>Сегодня существует множество схем, предполагающих использование подобных профессиональных легализаторов, которые <strong>генерируют финансовые потоки и возвращают деньги злоумышленникам</strong>.</p>
+<p>Ngày nay có rất nhiều kế hoạch liên quan đến việc sử dụng những người hợp pháp hóa chuyên nghiệp như vậy, những người <strong>tạo ra dòng tài chính và trả lại tiền cho những kẻ tấn công</strong>.</p>
+<hr class="docutils" />
 <p>Одним из наиболее известных «ландроматов» считается Международный кредитно коммерческий банк (<strong>Bank of Credit and Commerce International, или BCCI</strong>).</p>
+<p>Một trong những “tiệm giặt tự động” nổi tiếng nhất là Ngân hàng Tín dụng và Thương mại Quốc tế (<strong>Ngân hàng Tín dụng và Thương mại Quốc tế, hay BCCI</strong>).</p>
 </section>
 <section id="id11">
 <h2>Трехфазовая модель отмывания денег. Размещение<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
 <p>Наиболее распространенным подходом к анализу процесса отмывания денег является <strong>трехфазовая модель отмывания</strong>. С точки зрения этой модели процесс отмывания денежных средств состоит из трех этапов:</p>
+<p>Cách tiếp cận phổ biến nhất để phân tích quá trình rửa tiền là <strong>mô hình rửa tiền ba giai đoạn</strong>. Theo quan điểm của mô hình này, quá trình rửa tiền bao gồm ba giai đoạn:</p>
 <ol class="arabic simple">
 <li><p>размещение</p></li>
 <li><p>расслоение</p></li>
 <li><p>интеграция</p></li>
 </ol>
+<hr class="docutils" />
 <p>На первой стадии легализации (размещение) нелегально заработанные доходы вводятся в финансовую системую.</p>
+<p>Ở giai đoạn đầu tiên của quá trình hợp pháp hóa (đặt), thu nhập kiếm được bất hợp pháp sẽ được đưa vào hệ thống tài chính.</p>
+<hr class="docutils" />
 <p>Это может быть сделано путем дробления сумм с последующим их депонированием на банковские счета, либо путем приобретения инструментов денежного рынка.</p>
+<p>Điều này có thể được thực hiện bằng cách chia nhỏ số tiền và gửi chúng vào tài khoản ngân hàng hoặc bằng cách mua các công cụ thị trường tiền tệ.</p>
+<hr class="docutils" />
 <blockquote>
 <div><p>Этап размещения является самым слабым звеном в процессе отмывания денег, на этом этапе незаконно полученные средства могут быть выявлены наиболее легко.</p>
 </div></blockquote>
+<blockquote>
+<div><p>Giai đoạn bố trí là mắt xích yếu nhất trong quá trình rửa tiền; ở giai đoạn này, các khoản tiền thu được bất hợp pháp có thể dễ dàng được xác định nhất.</p>
+</div></blockquote>
+<hr class="docutils" />
 <p>Второй этап заключается в проведении серии операций основной целью которых является сокрытие или искажение источников происхождения средств</p>
+<p>Giai đoạn thứ hai bao gồm việc tiến hành một loạt các hoạt động với mục đích chính là che giấu hoặc bóp méo nguồn gốc của tiền.</p>
+<hr class="docutils" />
 <p>Различные финансовые операции наслаиваются одна на другую усложняя идентификацию преступных доходов</p>
+<p>Các giao dịch tài chính khác nhau được xếp chồng lên nhau, gây khó khăn cho việc xác định tiền thu được từ tội phạm</p>
+<hr class="docutils" />
 <p>На этой стадии денежные средства могут использоваться для приобретения финансовых инструментов, обращаться на биржах, проходить сквозь большое количество банковских счетов</p>
+<p>Ở giai đoạn này, tiền có thể được sử dụng để mua các công cụ tài chính, giao dịch trên các sàn giao dịch và chuyển qua một số lượng lớn tài khoản ngân hàng.</p>
+<hr class="docutils" />
 <p>В некоторых случаях переводы денежных средств могут быть замаскированы под платежи за товары и услуги</p>
+<p>Trong một số trường hợp, việc chuyển tiền có thể được ngụy trang dưới dạng thanh toán cho hàng hóa và dịch vụ</p>
+<hr class="docutils" />
 <p>На последнем этапе деньги обретают законный источник происхождения и инвестируются в легальную экономику в том числе посредством операций по купле продаже недвижимости</p>
+<p>Ở giai đoạn cuối, tiền có được nguồn gốc hợp pháp và được đầu tư vào nền kinh tế hợp pháp, bao gồm thông qua các giao dịch mua bán bất động sản.</p>
+<hr class="docutils" />
 <p>При объяснении источников появления своего богатства злоумышленник создает видимость достоверности</p>
+<p>Khi giải thích nguồn gốc của sự giàu có của mình, kẻ tấn công tạo ra vẻ ngoài xác thực</p>
+<hr class="docutils" />
 <blockquote>
 <div><p>Если схема отмывания денег не была выялена на двух предыдущих стадиях, то отделить законные доходы от незаконных практически невозможно без использования скрытой агентурной работы.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Nếu kế hoạch rửa tiền không được xác định ở hai giai đoạn trước, thì gần như không thể tách tiền thu được hợp pháp khỏi tiền bất hợp pháp nếu không sử dụng công việc tình báo ẩn giấu.</p>
 </div></blockquote>
 </section>
 </section>

@@ -7,7 +7,7 @@
 
     <!-- Generated with Sphinx 7.4.7 and Furo 2024.08.06 -->
         <title>Лекция 5. Система противодействия финансированию терроризма - Đây là tiêu đề</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
@@ -22,7 +22,7 @@
 
 <style>
   body {
-    --color-code-background: #eeffcc;
+    --color-code-background: #f8f8f8;
   --color-code-foreground: black;
   
   }
@@ -260,6 +260,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../database/README.html">Специальные технологии баз данных и информационных систем</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../database/lecture-1.html">Лекция 1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../database/lecture-2.html">Лекция 2 - Введение в Hadoop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../database/lecture-3.html">Лекция 3. Apache Spark: Часть 1</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Руский язык</span></p>
 <ul>
@@ -315,31 +316,58 @@
 <blockquote>
 <div><p>ст. 3 Федерального закона №115 ФЗ от 07.08.2001 г. «О противодействии легализации (отмыванию) доходов, полученных преступным путем, и финансированию терроризма»</p>
 </div></blockquote>
+<blockquote>
+<div><p>Điều 3 của Luật Liên bang số 115 FZ ngày 07/08/2001 “Về chống hợp pháp hóa (rửa tiền) tiền thu được từ tội phạm và tài trợ cho khủng bố”</p>
+</div></blockquote>
+<hr class="docutils" />
 <p><strong>Финансирование терроризма</strong> - предоставление или сбор средств либо оказание финансовых услуг с осознанием того, что</p>
 <ul class="simple">
 <li><p>они предназначены для финансирования организации, подготовки и совершения хотя бы одного из преступлений, предусмотренных статьями 205 205 1 205 2 205 3 205 4 205 5 206 208 211 220 221 277 278 279 360 и 361 Уголовного кодекса Российской Федерации,</p></li>
 <li><p>либо для финансирования или иного материального обеспечения лица в целях совершения им хотя бы одного из указанных преступлений,</p></li>
 <li><p>либо для обеспечения организованной группы, незаконного вооруженного формирования или преступного сообщества (преступной организации), созданных или создаваемых для совершения хотя бы одного из указанных преступлений</p></li>
 </ul>
+<hr class="docutils" />
+<p><strong>Tài trợ khủng bố</strong> là việc cung cấp hoặc thu tiền hoặc cung cấp dịch vụ tài chính với hiểu biết rằng</p>
+<ul class="simple">
+<li><p>nhằm tài trợ cho việc tổ chức, chuẩn bị và thực hiện ít nhất một trong các tội quy định tại các Điều 205 205 1 205 2 205 3 205 4 205 5 206 208 211 220 221 277 278 279 360 và 361 Bộ luật Hình sự Liên bang Nga,</p></li>
+<li><p>hoặc để tài trợ hoặc hỗ trợ vật chất khác cho một người nhằm mục đích thực hiện ít nhất một trong những tội ác này,</p></li>
+<li><p>hoặc để hỗ trợ một nhóm có tổ chức, nhóm vũ trang bất hợp pháp hoặc cộng đồng tội phạm (tổ chức tội phạm) được tạo ra hoặc đang được tạo ra để thực hiện ít nhất một trong những tội ác này</p></li>
+</ul>
 </section>
 <section id="id3">
 <h2>Источники финансирования терроризма<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
 <p>Террористические капиталы <strong>не всегда имеют нелегальные источники происхождения</strong>. Террористы часто используют легальные организации для осуществления своей деятельности.</p>
+<p>Vốn khủng bố <strong>không phải lúc nào cũng có nguồn gốc bất hợp pháp</strong>. Những kẻ khủng bố thường sử dụng các tổ chức hợp pháp để thực hiện các hoạt động của chúng.</p>
+<hr class="docutils" />
 <p>Террористы и участники процесса «отмывания» денежных средств <strong>используют одинаковые методы</strong> для осуществления движения данных средств, например, структуризацию платежей во избежание контрольной отчетности и такие неформальные системы перевода средств, как система Hawala.</p>
+<p>Những kẻ khủng bố và rửa tiền <strong>sử dụng các phương pháp tương tự</strong> để chuyển tiền, chẳng hạn như cơ cấu thanh toán để tránh bị kiểm toán và các hệ thống chuyển tiền không chính thức như Hawala.</p>
 </section>
 <section id="hawala">
 <h2>Источники финансирования терроризма. Система Hawala<a class="headerlink" href="#hawala" title="Link to this heading">¶</a></h2>
 <p>Система Hawala основана на переводе денежных средств путём однократных уведомлений по электронной почте, факсу или телефонными звонками</p>
+<p>Hệ thống Hawala dựa trên việc chuyển tiền thông qua thông báo một lần qua email, fax hoặc gọi điện thoại</p>
+<hr class="docutils" />
 <p>Материальные ценности в виде денег, золота и драгоценных камней перемещаются из страны в страну <strong>без сопроводительных финансовых документов</strong>.</p>
+<p>Tài sản vật chất dưới dạng tiền, vàng và đá quý được di chuyển từ nước này sang nước khác <strong>không có chứng từ tài chính kèm theo</strong>.</p>
+<hr class="docutils" />
 <p>В силу того, что все финансовые транзакции осуществляются методом взаимозачёта (клиринга) или при личных встречах (второе случается значительно реже), государственные контрольные органы <strong>не в состоянии отследить эти потоки</strong>.</p>
+<p>Do thực tế là tất cả các giao dịch tài chính được thực hiện theo phương thức thanh toán chung (thanh toán bù trừ) hoặc trong các cuộc họp cá nhân (trường hợp thứ hai xảy ra ít thường xuyên hơn), các cơ quan kiểm soát của chính phủ <strong>không thể theo dõi các luồng này</strong>.</p>
 </section>
 <section id="id4">
 <h2>Социально экономические причины терроризма<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
 <blockquote>
 <div><p>Названы на VIII Международном конгрессе ООН по предупреждению преступности и обращению с преступниками коренными причинами терроризма</p>
 </div></blockquote>
+<blockquote>
+<div><p>Được Đại hội quốc tế Liên hợp quốc lần thứ VIII về phòng chống tội phạm và đối xử với tội phạm coi là nguyên nhân sâu xa của khủng bố</p>
+</div></blockquote>
+<hr class="docutils" />
 <p>В условиях возросшей террористической угрозы <strong>исследованию причин терроризма уделяется особое внимание</strong>. От того, насколько точно будут установлены причины этого особо опасного преступления, будет зависеть эффективность принимаемых мер по борьбе с ними и их дальнейшее совершенствование</p>
+<p>Trong bối cảnh mối đe dọa khủng bố ngày càng gia tăng, <strong>đặc biệt chú ý đến việc nghiên cứu nguyên nhân khủng bố</strong>. Hiệu quả của các biện pháp được thực hiện để chống lại chúng và việc cải thiện chúng hơn nữa sẽ phụ thuộc vào mức độ xác định chính xác nguyên nhân của tội phạm đặc biệt nguy hiểm này.</p>
+<hr class="docutils" />
 <p>Под причинами преступности, в том числе и различных видов терроризма, принято понимать те социальные явления, которые порождают преступность как свое закономерное следствие</p>
+<p>Nguyên nhân của tội phạm, bao gồm các loại hình khủng bố khác nhau, thường được hiểu là những hiện tượng xã hội làm nảy sinh tội phạm như một hậu quả tự nhiên của chúng.</p>
+<hr class="docutils" />
 <p><strong>Социально экономические причины терроризма</strong>:</p>
 <ul class="simple">
 <li><p>Бедность</p></li>
@@ -356,10 +384,27 @@
 <li><p>Нехватка объектов культурно бытового назначения</p></li>
 <li><p>Распространение средствами массовой информации идей и взглядов, ведущих к росту насилия, неравенства и нетерпимости</p></li>
 </ul>
+<p><strong>Nguyên nhân kinh tế - xã hội của khủng bố</strong>:</p>
+<ul class="simple">
+<li><p>Nghèo</p></li>
+<li><p>Nạn thất nghiệp</p></li>
+<li><p>Mù chữ</p></li>
+<li><p>Thiếu nhà ở giá rẻ</p></li>
+<li><p>Sự thiếu hoàn hảo của hệ thống giáo dục và đào tạo</p></li>
+<li><p>Thiếu triển vọng cuộc sống</p></li>
+<li><p>Sự xa lánh và bị gạt ra ngoài lề xã hội của dân chúng</p></li>
+<li><p>Làm trầm trọng thêm tình trạng bất bình đẳng xã hội</p></li>
+<li><p>Làm suy yếu mối quan hệ gia đình và xã hội</p></li>
+<li><p>Những bất lợi trong giáo dục, những hậu quả tiêu cực của việc di cư</p></li>
+<li><p>Phá hoại bản sắc văn hóa</p></li>
+<li><p>Thiếu các công trình văn hóa, cộng đồng</p></li>
+<li><p>Phổ biến các ý tưởng và quan điểm của các phương tiện truyền thông dẫn đến gia tăng bạo lực, bất bình đẳng và không khoan dung</p></li>
+</ul>
 </section>
 <section id="id5">
 <h2>Финансирование террористической деятельности<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h2>
 <p>Террористические организации постоянно сталкиваются с проблемами обеспечения финансирования своей деятельности Для этой цели могу использоваться как внешние, так и внутренние источники</p>
+<p>Các tổ chức khủng bố liên tục phải đối mặt với các vấn đề về đảm bảo tài chính cho các hoạt động của chúng, cả nguồn bên ngoài và bên trong đều có thể được sử dụng.</p>
 <p><strong>Расходы на обеспечение террористической деятельности</strong></p>
 <ul class="simple">
 <li><p>Оплата расходов на идеологическую пропаганду</p></li>
@@ -369,6 +414,16 @@
 <li><p>Приобретение оружия, необходимого для совершения террористических актов</p></li>
 <li><p>Подготовка террористических актов</p></li>
 <li><p>Выплата вознаграждений наёмникам</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>Trả kinh phí tuyên truyền tư tưởng</p></li>
+<li><p>Duy trì các cơ cấu pháp lý liên quan (các hiệp hội, quỹ từ thiện)</p></li>
+<li><p>Hối lộ quan chức và cơ quan thực thi pháp luật</p></li>
+<li><p>Huấn luyện chiến binh</p></li>
+<li><p>Mua vũ khí cần thiết để thực hiện hành vi khủng bố</p></li>
+<li><p>Chuẩn bị tấn công khủng bố</p></li>
+<li><p>Trả phần thưởng cho lính đánh thuê</p></li>
 </ul>
 <p><strong>Источники финансирования терроризма</strong></p>
 <ul class="simple">
@@ -382,21 +437,52 @@
 <li><p>Электронное мошенничество</p></li>
 <li><p>Доходы от отмывания денег</p></li>
 </ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>Trộm cắp tài sản</p></li>
+<li><p>Vợt</p></li>
+<li><p>Bắt cóc và buôn người</p></li>
+<li><p>Buôn bán ma túy</p></li>
+<li><p>Buôn bán vũ khí</p></li>
+<li><p>Buôn lậu</p></li>
+<li><p>Làm giả</p></li>
+<li><p>Lừa đảo điện tử</p></li>
+<li><p>Tiền thu được từ hoạt động rửa tiền</p></li>
+</ul>
 </section>
 <section id="id6">
 <h2>Финансовая инфраструктура финансирования терроризма<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
 <p>Наиболее крупные террористические <strong>организации стремятся создать собственную финансовую инфраструктуру</strong>, в рамках которой перераспределятся потоки, связанные с террористической деятельностью</p>
-<p>В последнее время все четче вырисовывается тенденция к получению террористическими организациями средств от внешних источников различного рода организаций, граждан, благотворительных организаций, государств, диаспор Зачастую эти «доноры» не имеют четкого представления о том, на какие цели идут их вклады</p>
+<p><strong>Các tổ chức khủng bố lớn nhất đang tìm cách tạo ra cơ sở hạ tầng tài chính</strong> của riêng mình, trong đó các luồng liên quan đến hoạt động khủng bố sẽ được phân phối lại</p>
+<hr class="docutils" />
+<p>В последнее время все четче вырисовывается тенденция к получению террористическими организациями средств от внешних источников различного рода организаций, граждан, благотворительных организаций, государств, диаспор</p>
+<p>Gần đây, các tổ chức khủng bố ngày càng có xu hướng nhận tiền từ các nguồn bên ngoài của nhiều loại tổ chức, công dân, tổ chức từ thiện, tiểu bang, cộng đồng hải ngoại.</p>
+<hr class="docutils" />
+<p>Зачастую эти «доноры» не имеют четкого представления о том, на какие цели идут их вклады</p>
+<p>Thông thường, những “nhà tài trợ” này không hiểu rõ mục đích của họ đóng góp được sử dụng cho mục đích gì.</p>
+<hr class="docutils" />
 <p>В схемы финансирования терроризма все в большей степени <strong>вовлекаются некоммерческие организации</strong>.</p>
+<p>Các tổ chức phi lợi nhuận ngày càng tham gia nhiều hơn vào các kế hoạch tài trợ khủng bố.</p>
+<hr class="docutils" />
 <p>Например, считается, что Усамой бен Ладеном в свое время было инвестировано 50 миллионов долларов в банк Al Shamal, штаб квартира которого расположена в Судане Данный банк поддерживал корреспондентские отношения со многими крупными банками мира</p>
+<p>Ví dụ, người ta tin rằng Osama bin Laden từng đầu tư 50 triệu USD vào Ngân hàng Al Shamal, có trụ sở chính đặt tại Sudan. Ngân hàng này có quan hệ đại lý với nhiều ngân hàng lớn trên thế giới.</p>
+<hr class="docutils" />
 <p>Использование некоммерческих организаций для целей отмывания денежных средств и финансирования терроризма может осуществляться различными способами Некоммерческие организации могут использоваться террористами для сбора, перемещения денежных средств, а также в целях обеспечения деятельности террористических организаций Роль внешних источников особенно возрастает в условиях интернационализации и глобализации террористической угрозы</p>
+<p>Việc sử dụng các tổ chức phi lợi nhuận cho mục đích rửa tiền và tài trợ khủng bố có thể được thực hiện theo nhiều cách khác nhau. Các tổ chức phi lợi nhuận có thể bị bọn khủng bố sử dụng để thu thập và chuyển tiền cũng như hỗ trợ các hoạt động của các tổ chức khủng bố. Vai trò của các nguồn bên ngoài đặc biệt tăng lên trong bối cảnh quốc tế hóa và toàn cầu hóa mối đe dọa khủng bố</p>
 </section>
 <section id="id7">
 <h2>Связь терроризма и отмывания денег<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h2>
 <p>В условиях всеобщей глобализации обнаруживается непосредственная связь между отмыванием денег и финансированием терроризма Для террористических группировок доходы, полученные преступным путем, являются важной составляющей финансирования их террористической деятельности</p>
+<p>Trong bối cảnh toàn cầu hóa, mối liên hệ trực tiếp được bộc lộ giữa rửa tiền và tài trợ khủng bố. Đối với các nhóm khủng bố, tiền thu được từ tội phạm là một phần quan trọng trong việc tài trợ cho các hoạt động khủng bố của chúng.</p>
+<hr class="docutils" />
 <p>Для сокрытия своих преступных доходов террористы используют те же методы и механизмы, которые применяются для отмывания денег</p>
+<p>Để che giấu số tiền thu được từ tội ác của mình, những kẻ khủng bố sử dụng các phương pháp và cơ chế tương tự được sử dụng để rửa tiền.</p>
+<hr class="docutils" />
 <p>С другой стороны отмытые деньги вновь используются в криминальной сфере Международный терроризм часть этой сферы Отмытые деньги очень важны для него Таким образом, отмывание денег становится неотъемлемым институтом теневой экономики и международного терроризма</p>
+<p>Mặt khác, rửa tiền lại được sử dụng trong lĩnh vực tội phạm. Khủng bố quốc tế là một phần của lĩnh vực này. Do đó, rửa tiền trở thành một thể chế không thể thiếu của nền kinh tế ngầm và khủng bố quốc tế.</p>
+<hr class="docutils" />
 <p>В рамках теневой экономики формируются преступные капиталы, происходит легализация «грязных денег», за счет которых финансируется терроризм</p>
+<p>Trong nền kinh tế ngầm, vốn tội phạm được hình thành, “tiền bẩn” được hợp pháp hóa, qua đó tài trợ cho khủng bố</p>
 <blockquote>
 <div><p>Пример: движение «Талибан»</p>
 </div></blockquote>
@@ -404,6 +490,7 @@
 <section id="id8">
 <h2>Пример: движение «Талибан»<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h2>
 <p>Движение «Талибан», контролировавшее около 90 посевных площадей опиумного мака в Афганистане, использовало получаемые от реализации наркотиков деньги на закупки современных видов вооружений, ведение боевых действий и подготовку боевиков Часть этих доходов использовалась в целях оказания помощи экстремистским группировкам в Узбекистане, Таджикистане, Синьцзян Уйгурском автономном районе Китае, чеченским полевым командирам</p>
+<p>Phong trào Taliban, vốn kiểm soát khoảng 90 khu vực trồng cây thuốc phiện ở Afghanistan, đã sử dụng số tiền thu được từ việc bán ma túy để mua các loại vũ khí hiện đại, tiến hành các hoạt động chiến đấu và huấn luyện phiến quân. Khu tự trị Uzbekistan, Tajikistan và Tân Cương của Trung Quốc, chỉ huy chiến trường Chechnya</p>
 </section>
 <section id="id9">
 <h2>Этапы процесса финансирования терроризма<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h2>
@@ -421,6 +508,24 @@
 <li><p>использование средств</p>
 <ul class="simple">
 <li><p>Заключительный этап процесса финансирования терроризма, основной целью которого является использование средств для обеспечения всех видов деятельности, осуществляемых террористическими группами</p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<ol class="arabic simple">
+<li><p>gây quỹ</p>
+<ul class="simple">
+<li><p>Giai đoạn đầu của tài trợ khủng bố, mục tiêu chính là gây quỹ theo cả cách hợp pháp và bất hợp pháp</p></li>
+</ul>
+</li>
+<li><p>chuyển động của quỹ</p>
+<ul class="simple">
+<li><p>Giai đoạn kỹ thuật của quy trình tài trợ khủng bố, mục tiêu chính là sử dụng các cơ chế hợp pháp và/hoặc bất hợp pháp để di chuyển các quỹ khủng bố</p></li>
+</ul>
+</li>
+<li><p>sử dụng vốn</p>
+<ul class="simple">
+<li><p>Giai đoạn cuối cùng của quá trình tài trợ khủng bố, mục đích chính là sử dụng tiền để hỗ trợ tất cả các loại hoạt động do các nhóm khủng bố thực hiện</p></li>
 </ul>
 </li>
 </ol>
@@ -450,17 +555,49 @@
 </ul>
 </li>
 </ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><strong>Tiết lộ</strong></p>
+<ul>
+<li><p>Tiến hành điều tra tài chính theo yêu cầu của cơ quan pháp luật</p></li>
+<li><p>Phân tích nội dung tin nhắn điện tử mà Rosfinmonitoring nhận được</p></li>
+<li><p>Thu thập thông tin từ các đơn vị tình báo tài chính nước ngoài và các tổ chức quốc tế</p></li>
+</ul>
+</li>
+<li><p><strong>Cảnh báo</strong></p>
+<ul>
+<li><p>Chấp nhận các hạn chế pháp lý</p></li>
+<li><p>Xây dựng hệ thống chỉ tiêu</p></li>
+<li><p>Giám sát việc tuân thủ các biện pháp của các bên tham gia hệ thống AML/CFT/PWF quốc gia</p></li>
+</ul>
+</li>
+<li><p><strong>Đàn áp</strong></p>
+<ul>
+<li><p>Đưa vào danh sách</p></li>
+<li><p>Phong tỏa các quỹ theo quyết định của Ủy ban liên ngành về chống tài trợ khủng bố</p></li>
+<li><p>Phong tỏa quỹ theo quyết định của tòa án</p></li>
+</ul>
+</li>
+</ul>
 </section>
 <section id="id11">
 <h2>Подрыв финансовых основ терроризма как инструмент антитеррористической деятельности<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
 <p><strong>Масштабы ущерба</strong> от террористической деятельности, разрушительная сила терактов непосредственно <strong>зависят от величины финансовых средств</strong>, которыми располагают террористические организации</p>
+<p><strong>Quy mô thiệt hại</strong> từ các hoạt động khủng bố, sức tàn phá trực tiếp của các cuộc tấn công khủng bố <strong>phụ thuộc vào nguồn tài chính</strong> sẵn có cho các tổ chức khủng bố</p>
+<hr class="docutils" />
 <p>Существенным фактором эффективной борьбы с любыми проявлениями террористического характера является <strong>противодействие финансированию террористических организаций</strong></p>
+<p>Một yếu tố thiết yếu để đấu tranh hiệu quả với bất kỳ biểu hiện nào có tính chất khủng bố là <strong>chống lại việc tài trợ cho các tổ chức khủng bố</strong></p>
+<hr class="docutils" />
 <p>Актуальность и важность решения проблемы противодействия экономическим и финансовым основам терроризма признается на международном уровне</p>
+<p>Sự liên quan và tầm quan trọng của việc giải quyết vấn đề chống lại nền tảng kinh tế và tài chính của chủ nghĩa khủng bố đã được công nhận ở cấp độ quốc tế</p>
+<hr class="docutils" />
 <p>В соответствии с резолюцией Совета Безопасности ООН 1373 принятой 28 сентября 2001 года, <strong>все государства должны предотвращать финансирование террористических актов</strong> безотлагательно блокировать средства и другие активы лиц, участвующих и содействующих совершению террористических актов, запретить гражданам или любым лицам предоставление средств или активов, направленных на финансирование терроризма</p>
+<p>Theo Nghị quyết 1373 của Hội đồng Bảo an Liên Hợp Quốc được thông qua ngày 28 tháng 9 năm 2001, <strong>tất cả các quốc gia phải ngăn chặn việc tài trợ cho các hành vi khủng bố</strong> ngay lập tức phong tỏa quỹ và các tài sản khác của những người tham gia và tạo điều kiện cho việc thực hiện các hành vi khủng bố, cấm công dân hoặc bất kỳ hành vi nào khác. những người cung cấp tiền hoặc tài sản nhằm tài trợ cho khủng bố</p>
 </section>
 <section id="id12">
 <h2>Задержание Бостонских террористов<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h2>
 <p>19 апреля 2013 года в ходе 10 часовой операции полиция задержала подозреваемых теракте 15 апреля братьев Царнаевых</p>
+<p>Vào ngày 19 tháng 4 năm 2013, trong một chiến dịch kéo dài 10 giờ, cảnh sát đã bắt giữ nghi phạm của vụ tấn công khủng bố ngày 15 tháng 4, anh em nhà Tsarnaev.</p>
 </section>
 <section id="id13">
 <h2>Теракт в Ницце 14 июля 2016 года<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h2>
@@ -468,14 +605,26 @@
 <section id="id14">
 <h2>Международный план по борьбе с финансированием терроризма<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h2>
 <p>На встрече Министров финансов «Группы восьми», которая состоялась в Вашингтоне 6 октября 2001 года, был одобрен <strong>План по борьбе с финансированием терроризма</strong>. Данный план предусматривает совместные действия государств по следующим направлениям:</p>
+<p>Tại cuộc họp của các Bộ trưởng Tài chính G8 diễn ra tại Washington vào ngày 6 tháng 10 năm 2001, <strong>Kế hoạch tài trợ khủng bố</strong> đã được thông qua. Kế hoạch này quy định các hành động chung của các quốc gia trong các lĩnh vực sau:</p>
+<hr class="docutils" />
 <p>Строгое выполнение международных санкций по предотвращению финансирования терроризма</p>
 <ul class="simple">
 <li><p>Возложение ключевой роли в борьбе с финансированием терроризма на ФАТФ, издание специальных рекомендаций ФАТФ, направленных на борьбу с финансированием терроризма, пересмотр Сорока рекомендаций ФАТФ с целью распространения их действия на борьбу с финансированием терроризма</p></li>
 <li><p>Расширение обмена информацией между подразделениями финансовой разведки</p></li>
 <li><p>Усиление надзора и регулирования в целях противодействия финансированию терроризма</p></li>
 </ul>
+<p>Thực hiện nghiêm ngặt các biện pháp trừng phạt quốc tế nhằm ngăn chặn việc tài trợ cho khủng bố</p>
+<ul class="simple">
+<li><p>Giao vai trò chủ chốt trong cuộc chiến chống tài trợ cho khủng bố cho FATF, đưa ra các khuyến nghị đặc biệt của FATF nhằm chống lại việc tài trợ cho khủng bố, sửa đổi Bốn mươi khuyến nghị của FATF để mở rộng việc áp dụng chúng vào cuộc chiến chống tài trợ cho khủng bố</p></li>
+<li><p>Mở rộng trao đổi thông tin giữa các đơn vị tình báo tài chính</p></li>
+<li><p>Tăng cường giám sát và quản lý hoạt động tài trợ khủng bố</p></li>
+</ul>
+<hr class="docutils" />
 <p>В качестве одного из главных инструментов борьбы с терроризмом «Группа восьми» рекомендует использовать <strong>противодействие финансированию террористической деятельности</strong></p>
+<p>G8 khuyến nghị sử dụng <strong>chống tài trợ cho các hoạt động khủng bố</strong> như một trong những công cụ chính trong cuộc chiến chống khủng bố.</p>
+<hr class="docutils" />
 <p>В рекомендациях отмечено, что <strong>необходимо перейти от замораживания активов террористических организаций к их конфискации</strong> с целью полного лишения террористов их финансовых ресурсов</p>
+<p>Các khuyến nghị lưu ý rằng <strong>cần phải chuyển từ phong tỏa tài sản của các tổ chức khủng bố sang tịch thu</strong> để tước bỏ hoàn toàn nguồn tài chính của bọn khủng bố</p>
 </section>
 <section id="id15">
 <h2>Межведомственная комисс и я по ПФТ<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h2>
@@ -484,6 +633,13 @@
 <li><p><strong>Принимать решения о замораживании (блокировании)</strong> денежных средств или иного имущества, принадлежащих организации или физическому лицу, в отношении которых имеются достаточные основания подозревать их причастность к террористической деятельности (в том числе к финансированию терроризма)</p></li>
 <li><p><strong>Запрашивать и получать</strong> в установленном порядке <strong>необходимые материалы и информацию</strong> от органов и организаций, а также от компетентных органов иностранных государств</p></li>
 <li><p><strong>Приглашать</strong> на свои заседания <strong>должностных лиц и специалистов</strong> органов и организаций, а также компетентных органов иностранных государств</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><strong>Xem xét</strong> tài liệu do các cơ quan và tổ chức đệ trình **có chứa thông tin về khả năng một tổ chức hoặc cá nhân có liên quan đến hoạt động khủng bố</p></li>
+<li><p><strong>Đưa ra quyết định phong tỏa (phong tỏa)</strong> quỹ hoặc tài sản khác thuộc sở hữu của một tổ chức hoặc cá nhân mà có căn cứ hợp lý để nghi ngờ họ liên quan đến các hoạt động khủng bố (bao gồm cả việc tài trợ cho khủng bố)</p></li>
+<li><p><strong>Yêu cầu và nhận</strong> theo cách thức quy định <strong>tài liệu và thông tin cần thiết</strong> từ các cơ quan, tổ chức cũng như từ cơ quan có thẩm quyền của nước ngoài</p></li>
+<li><p><strong>Mời</strong> tham dự các cuộc họp của bạn <strong>quan chức và chuyên gia</strong> các cơ quan, tổ chức cũng như cơ quan có thẩm quyền của nước ngoài</p></li>
 </ul>
 </section>
 <section id="id16">
@@ -495,6 +651,15 @@
 <li><p>Федеральная служба охраны (ФСО) обеспечение безопасности объектов государственной охраны и защиты охраняемых объектов</p></li>
 <li><p>Министерство обороны (МО) защита вооружения и военных объектов</p></li>
 <li><p>Федеральная пограничная служба (ФПС) охрана Государственной границы</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>Cơ quan An ninh Liên bang (FSB) chống tội phạm khủng bố có tính chất chính trị</p></li>
+<li><p>Bộ Nội vụ (MVD) đấu tranh chống tội phạm khủng bố có tính chất lính đánh thuê</p></li>
+<li><p>Cơ quan Tình báo Nước ngoài (SVR) đảm bảo an ninh cho các tổ chức của Nga ở nước ngoài</p></li>
+<li><p>Dịch vụ An ninh Liên bang (FSO) đảm bảo an ninh cho các cơ sở an ninh nhà nước và bảo vệ các đối tượng được bảo vệ</p></li>
+<li><p>Bộ Quốc phòng (MoD) bảo vệ vũ khí và cơ sở quân sự</p></li>
+<li><p>Dịch vụ Biên giới Liên bang (FBS) bảo vệ Biên giới Tiểu bang</p></li>
 </ul>
 </section>
 </section>
