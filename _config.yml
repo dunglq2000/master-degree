@@ -41,5 +41,5 @@ sphinx:
       source_branch: main
     pygments_style: "default"
     numfig_format:
-      figure: 'Рисунок %s.'
-      table: 'Таблица %s.'
+      figure: 'Рис. %s.'
+      table: 'Таб. %s.'
