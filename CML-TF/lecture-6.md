@@ -8,7 +8,7 @@
 
 Формирование национальной системы ПОД/ФТ в России началось с разработки концепции и проекта Федерального закона **«Об ответственности за легализацию преступных доходов»** в соответствии с Указом Президента Российской Федерации №1016 от 24 мая 1994 года.
 
-Sự hình thành hệ thống AML/CFT quốc gia ở Nga bắt đầu bằng việc xây dựng khái niệm và dự thảo Luật Liên bang ** “Về trách nhiệm rửa tiền”** theo Nghị định của Tổng thống Liên bang Nga số 1016 của Ngày 24 tháng 5 năm 1994.
+Sự hình thành hệ thống AML/CFT quốc gia ở Nga bắt đầu bằng việc xây dựng khái niệm và dự thảo Luật Liên bang **“Về trách nhiệm rửa tiền”** theo Nghị định của Tổng thống Liên bang Nga số 1016 của Ngày 24 tháng 5 năm 1994.
 
 ---
 
@@ -114,13 +114,13 @@ Vào tháng 6 năm 2000, **FATF đã công bố danh sách các quốc gia** và
 
 Следует признать, что на момент проведения оценки ФАТФ система противодействия отмыванию денег в России действительно отсутствовала. В качестве основного фактора, препятствующего улучшению национального режима в данной сфере, эксперты ФАТФ указали на **отсутствие в России отвечающих международным стандартам базового закона** о противодействии отмыванию денег и нормативных актов, обеспечивающих его исполнение.
 
-Cần phải thừa nhận rằng tại thời điểm FATF đánh giá, thực sự ở Nga không có hệ thống chống rửa tiền. Là yếu tố chính cản trở việc cải thiện chế độ quốc gia trong lĩnh vực này, các chuyên gia của FATF chỉ ra rằng ở Nga **thiếu luật cơ bản** về chống rửa tiền và các quy định đảm bảo việc thực thi luật này đáp ứng các tiêu chuẩn quốc tế.
+Cần phải thừa nhận rằng tại thời điểm FATF đánh giá, thực sự ở Nga không có hệ thống chống rửa tiền. Là yếu tố chính cản trở việc cải thiện chế độ quốc gia trong lĩnh vực này, các chuyên gia của FATF chỉ ra rằng **ở Nga thiếu luật cơ bản** về chống rửa tiền và các quy định đảm bảo việc thực thi luật này đáp ứng các tiêu chuẩn quốc tế.
 
 ### 2001 Апрель
 
 Важнейшим шагом России по созданию национальной системы ПОД/ФТ стала доработка имевшихся проектов законов **«О противодействии легализации (отмыванию) доходов, полученных незаконным путем»**, и «О **внесении изменений и дополнений** в законодательные акты Российской Федерации в связи с принятием Федерального Закона «О противодействии легализации (отмыванию) доходов, полученных незаконным путем». 
 
-Bước quan trọng nhất ở Nga để tạo ra hệ thống AML/CFT quốc gia là hoàn thiện các dự thảo luật hiện hành ** “Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”** và “Về ** giới thiệu các sửa đổi và bổ sung* * đối với các hành vi lập pháp của Liên bang Nga liên quan đến việc thông qua Luật Liên bang “Chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”. 
+Bước quan trọng nhất ở Nga để tạo ra hệ thống AML/CFT quốc gia là hoàn thiện các dự thảo luật hiện hành **“Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”** và “Về **giới thiệu các sửa đổi và bổ sung** đối với các hành vi lập pháp của Liên bang Nga liên quan đến việc thông qua Luật Liên bang “Chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”. 
 
 ---
 
@@ -130,7 +130,7 @@ Bước quan trọng nhất ở Nga để tạo ra hệ thống AML/CFT quốc g
 
 Những sửa đổi về luật
 
-**Các dự luật đã được Tổng thống Liên bang Nga đưa vào Duma Quốc gia** vào tháng 4 năm 2001** và trở thành chủ đề thảo luận sôi nổi ở đó. Trong quá trình thông qua các dự luật, **một số sửa đổi của quốc hội** đã được đưa vào chúng, chủ yếu nhằm mục đích **thu hẹp phạm vi hành động**.
+**Các dự luật đã được Tổng thống Liên bang Nga đưa vào Duma Quốc gia** vào **tháng 4 năm 2001** và trở thành chủ đề thảo luận sôi nổi ở đó. Trong quá trình thông qua các dự luật, **một số sửa đổi của quốc hội** đã được đưa vào chúng, chủ yếu nhằm mục đích **thu hẹp phạm vi hành động**.
 
 ### 1 Ноября 2001
 
@@ -154,7 +154,7 @@ Nga đã trở thành thành viên chính thức của Lực lượng đặc nhi
 
 Указом Президента Российской Федерации **«О системе и структуре федеральных органов исполнительной власти»** от 9 марта 2004 г. № 314 КФМ России преобразован в **Федеральную службу по финансовому мониторингу (Росфинмониторинг)**, подведомственную Министерству финансов РФ.
 
-Theo Nghị định của Tổng thống Liên bang Nga ** “Về hệ thống và cơ cấu của các cơ quan hành pháp liên bang”** ngày 9 tháng 3 năm 2004 số 314, CFM của Nga đã được chuyển đổi thành **Cơ quan giám sát tài chính liên bang (Rosfinmonitoring) )**, trực thuộc Bộ Tài chính Liên bang Nga.
+Theo Nghị định của Tổng thống Liên bang Nga **“Về hệ thống và cơ cấu của các cơ quan hành pháp liên bang”** ngày 9 tháng 3 năm 2004 số 314, CFM của Nga đã được chuyển đổi thành **Cơ quan giám sát tài chính liên bang (Rosfinmonitoring)**, trực thuộc Bộ Tài chính Liên bang Nga.
 
 ### 2004, октябрь
 
@@ -200,7 +200,7 @@ IWG là cơ quan điều phối được thành lập để đảm bảo sự t�
 
 Представитель России Владимир Нечаев являлся президентом **межправительственной Группы разработки финансовых мер по борьбе с отмыванием денег (Financial Action Task Force, FATF)**.
 
-Đại diện Nga Vladimir Nechaev là chủ tịch Lực lượng đặc nhiệm hành động tài chính liên chính phủ (FATF)**.
+Đại diện Nga Vladimir Nechaev là chủ tịch **Lực lượng đặc nhiệm hành động tài chính liên chính phủ (FATF)**.
 
 ### 2013, октябрь
 

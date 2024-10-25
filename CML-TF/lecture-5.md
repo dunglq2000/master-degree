@@ -345,7 +345,7 @@ Các khuyến nghị lưu ý rằng **cần phải chuyển từ phong tỏa tà
 
 ---
 
-- **Xem xét** tài liệu do các cơ quan và tổ chức đệ trình **có chứa thông tin về khả năng một tổ chức hoặc cá nhân có liên quan đến hoạt động khủng bố
+- **Xem xét** tài liệu do các cơ quan và tổ chức đệ trình có chứa thông tin về khả năng một tổ chức hoặc cá nhân có liên quan đến hoạt động khủng bố
 - **Đưa ra quyết định phong tỏa (phong tỏa)** quỹ hoặc tài sản khác thuộc sở hữu của một tổ chức hoặc cá nhân mà có căn cứ hợp lý để nghi ngờ họ liên quan đến các hoạt động khủng bố (bao gồm cả việc tài trợ cho khủng bố)
 - **Yêu cầu và nhận** theo cách thức quy định **tài liệu và thông tin cần thiết** từ các cơ quan, tổ chức cũng như từ cơ quan có thẩm quyền của nước ngoài
 - **Mời** tham dự các cuộc họp của bạn **quan chức và chuyên gia** các cơ quan, tổ chức cũng như cơ quan có thẩm quyền của nước ngoài
