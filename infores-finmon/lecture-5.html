@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
@@ -317,16 +317,35 @@
 <li><p>тезаурусы и онтологии – сетевые словарные структуры, отражающие парадигматические и синтагматические связи терми-нов в конкретной предметной области;</p></li>
 <li><p>классификации, тематические рубрикаторы и др.</p></li>
 </ul>
+<p>Giải pháp cho các vấn đề phân tích và tổng hợp như lập chỉ mục, phân loại và phân cụm dựa trên khái niệm về sự tương ứng ngữ nghĩa giữa các văn bản, từ đó xác định “sức mạnh” của mối liên hệ ngữ nghĩa giữa các thuật ngữ tương ứng. Theo đó, cơ sở của các phương pháp xử lý tự động thông tin tài liệu là đặc tính rằng văn bản là một tập hợp giới hạn các thuật ngữ (từ và cụm từ riêng lẻ) tạo thành một hệ thống ngữ nghĩa trong bối cảnh tài liệu thể hiện ý nghĩa của nó. Mỗi lĩnh vực chủ đề phát triển hệ thống thuật ngữ, ở mức độ này hay mức độ khác, ổn định và năng động. Ở khía cạnh thông tin (trong các nhiệm vụ xử lý luồng thông tin), một hệ thống như vậy có thể bao gồm các đối tượng sau:</p>
+<ul class="simple">
+<li><p>các bảng thuật ngữ được tổ chức dưới dạng mạng ngữ nghĩa, mỗi nút trong đó được liên kết với một bộ tài liệu nhất định;</p></li>
+<li><p>từ điển đồng nghĩa và bản thể luận – các cấu trúc từ điển mạng phản ánh các kết nối mô hình và ngữ đoạn của các thuật ngữ trong một lĩnh vực chủ đề cụ thể;</p></li>
+<li><p>phân loại, bảng đánh giá theo chủ đề, v.v.</p></li>
+</ul>
+<hr class="docutils" />
 <p>В целом можно сказать, что именно терминологические си-стемы позволяют не только идентифицировать информационные объекты хранения и поиска, но и, оценивая динамику изменения терминологической системы, наблюдать и прогнозировать разви-тие (по крайней мере - изменение) предметной области. Количе-ственной мерой при этом будет изменение частот употребления лексики, характерной для этой предметной области.</p>
+<p>Nói chung, chúng ta có thể nói rằng chính các hệ thống thuật ngữ không chỉ giúp xác định các đối tượng lưu trữ và truy xuất thông tin mà còn bằng cách đánh giá động lực thay đổi trong hệ thống thuật ngữ, để quan sát và dự đoán sự phát triển (ít nhất là thay đổi) của lĩnh vực chủ đề. Thước đo định lượng trong trường hợp này sẽ là sự thay đổi về tần suất sử dụng vốn từ vựng đặc trưng của môn học này.</p>
 <section id="id2">
 <h2>5.1. Методы выделения информативных терминов<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>5.1. Phương pháp xác định thuật ngữ thông tin</p>
+</div></blockquote>
 <p>Первой задачей при построении терминологической системы является задача выделения из текстов предметной области отдель-ных слов или словосочетаний, которые для данной предметной об-ласти обозначают ключевые понятия. Для выявления терминов – кандидатов для включения в терминологическую систему применяются модели «взвешивания» и ранжирования терминов. Вычисление веса отдельного термина в рамках информационного массива проводится в соответствии со следующими основными методика-
 ми:</p>
-<p>TF (Term Frequency) – в основе методики лежит частота встречаемости термина в документе (или в массиве документов).</p>
-<p>TF*IDF (Term Frequency*Inverse Document Frequency) – в соответствии с этой методикой вес слова зависит от частоты его появления в конкретном предложении и в документе в целом.</p>
-<p>TL*TF (Term Length*Term Frequency) - методика базируется на том, что слова, которые появляются часто, стремятся быть краткими. Такие слова не описывают основную тему документа, т.е. являются стоп-словами. Наоборот, слова, которые появляются редко, стремятся быть длинными.</p>
+<p>Nhiệm vụ đầu tiên khi xây dựng hệ thống thuật ngữ là nhiệm vụ tách khỏi văn bản của một lĩnh vực chủ đề những từ hoặc cụm từ riêng lẻ biểu thị các khái niệm chính của một lĩnh vực chủ đề nhất định. Để xác định các thuật ngữ ứng viên để đưa vào hệ thống thuật ngữ, các mô hình “trọng số” và xếp hạng các thuật ngữ được sử dụng. Việc tính trọng số của một số hạng riêng lẻ trong mảng thông tin được thực hiện theo các phương pháp cơ bản sau:</p>
+<p><strong>TF</strong> (Term Frequency) – в основе методики лежит частота встречаемости термина в документе (или в массиве документов).</p>
+<p>TF (Tần suất thuật ngữ) - phương pháp này dựa trên tần suất xuất hiện của một thuật ngữ trong tài liệu (hoặc trong một mảng tài liệu).</p>
+<hr class="docutils" />
+<p><strong>TF*IDF</strong> (Term Frequency*Inverse Document Frequency) – в соответствии с этой методикой вес слова зависит от частоты его появления в конкретном предложении и в документе в целом.</p>
+<p>TF*IDF (Tần số thuật ngữ*Tần số nghịch đảo của tài liệu) - theo kỹ thuật này, trọng số của một từ phụ thuộc vào tần suất xuất hiện của nó trong một câu cụ thể và trong toàn bộ tài liệu.</p>
+<hr class="docutils" />
+<p><strong>TL*TF</strong> (Term Length*Term Frequency) - методика базируется на том, что слова, которые появляются часто, стремятся быть краткими. Такие слова не описывают основную тему документа, т.е. являются стоп-словами. Наоборот, слова, которые появляются редко, стремятся быть длинными.</p>
+<p>TL*TF (Độ dài thuật ngữ*Tần suất thuật ngữ) - kỹ thuật này dựa trên thực tế là các từ xuất hiện thường xuyên có xu hướng ngắn. Những từ như vậy không mô tả chủ đề chính của tài liệu, tức là là những từ dừng lại. Ngược lại, những từ ít xuất hiện thường có xu hướng dài.</p>
+<hr class="docutils" />
 <p>Рассмотрим некоторые конкретные применения перечисленных методик.</p>
-<p>Мера инверсной частоты термина (TF-методика). Расчет весовых коэффициентов может быть основан на так называемой мере инверсной частоты термина [Buckley,1986; Salton, 1986], которая задается следующим выражением:</p>
+<p>Hãy xem xét một số ứng dụng cụ thể của các kỹ thuật này.</p>
+<p><strong>Мера инверсной частоты термина (TF-методика).</strong> Расчет весовых коэффициентов может быть основан на так называемой мере инверсной частоты термина [Buckley,1986; Salton, 1986], которая задается следующим выражением:</p>
 <div class="math-wrapper docutils container">
 <div class="math notranslate nohighlight">
 \[w_i = \log \frac{N_0}{F_i}, \quad 0 \leqslant w_i \leqslant \log N_0,\]</div>
@@ -336,18 +355,30 @@
 <li><p><span class="math notranslate nohighlight">\(N_0\)</span> - общее число документов информационного массива;</p></li>
 <li><p><span class="math notranslate nohighlight">\(F_i\)</span> - частота i-того термина (количество документов массива, содержащих данный термин).</p></li>
 </ul>
-<p>Такая мера разбивает все терминологическое пространство на <span class="math notranslate nohighlight">\([\log N_0]\)</span> кластеров со значениями весов <span class="math notranslate nohighlight">\(0 \leqslant w_i &lt; 1\)</span>, <span class="math notranslate nohighlight">\(1 \leqslant w_i &lt; 2\)</span>, …, <span class="math notranslate nohighlight">\([\log N_0] - 1 \leqslant w_i &lt; [\log N_0]\)</span>. При этом термины, у которых  1 i F , попадают в последний кластер – кластер самых «тематически точных» терминов, а в первом кластере находятся термины, наиболее общие для информационного массива.</p>
-<p>Мера Чена (TL*TF-методика). В [Chen, 1997] рассматривается модифицированная мера инверсной частоты, дополненная показателем длины термина:</p>
-<p>i
-i
-ch
-i F
-N
-w log L log 0   ,</p>
-<p>где i L - количество слов в термине.</p>
+<p><strong>Thước đo tần số nghịch đảo của một số hạng (phương pháp TF).</strong> Việc tính toán các hệ số trọng số có thể dựa trên cái gọi là phép đo tần số nghịch đảo của một số hạng [Buckley, 1986; Salton, 1986], được tính bằng biểu thức sau:</p>
+<div class="math-wrapper docutils container">
+<div class="math notranslate nohighlight">
+\[w_i = \log \frac{N_0}{F_i}, \quad 0 \leqslant w_i \leqslant \log N_0,\]</div>
+</div>
+<p>Ở đâu</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(N_0\)</span> - tổng số tài liệu trong mảng thông tin;</p></li>
+<li><p><span class="math notranslate nohighlight">\(F_i\)</span> - tần số của số hạng thứ i (số lượng tài liệu mảng chứa số hạng này).</p></li>
+</ul>
+<hr class="docutils" />
+<p>Такая мера разбивает все терминологическое пространство на <span class="math notranslate nohighlight">\([\log N_0]\)</span> кластеров со значениями весов <span class="math notranslate nohighlight">\(0 \leqslant w_i &lt; 1\)</span>, <span class="math notranslate nohighlight">\(1 \leqslant w_i &lt; 2\)</span>, …, <span class="math notranslate nohighlight">\([\log N_0] - 1 \leqslant w_i &lt; [\log N_0]\)</span>. При этом термины, у которых <span class="math notranslate nohighlight">\(F_i = 1\)</span>, попадают в последний кластер – кластер самых «тематически точных» терминов, а в первом кластере находятся термины, наиболее общие для информационного массива.</p>
+<p><strong>Мера Чена (TL*TF-методика).</strong> В [Chen, 1997] рассматривается модифицированная мера инверсной частоты, дополненная показателем длины термина:</p>
+<div class="math-wrapper docutils container">
+<div class="math notranslate nohighlight">
+\[w_i^{ch} = \log L_i + \log \frac{N_0}{F_i},\]</div>
+</div>
+<p>где <span class="math notranslate nohighlight">\(L_i\)</span> - количество слов в термине.</p>
 <p>Рассмотрим этот весовой показатель с точки зрения структурных свойств терминологической системы:</p>
-<p>w( di )  Log( Li )( LogN  Log( Fi ))</p>
-<p>Первое слагаемое отражает степень точности отождествления термина с определенным понятием (успешность угадывания смысла термина, образованного из l слов, по крайней мере, в l раз выше), второе – «специфичность», как величину обратную «общности» в рамках множества возможных значений коллекции из N документов.</p>
+<div class="math-wrapper docutils container">
+<div class="math notranslate nohighlight">
+\[w(d_i) = \log(L_i) + (\log N - \log(F_i))\]</div>
+</div>
+<p>Первое слагаемое отражает степень точности отождествления термина с определенным понятием (успешность угадывания смысла термина, образованного из <span class="math notranslate nohighlight">\(l\)</span> слов, по крайней мере, в <span class="math notranslate nohighlight">\(l\)</span> раз выше), второе – «специфичность», как величину обратную «общности» в рамках множества возможных значений коллекции из <span class="math notranslate nohighlight">\(N\)</span> документов.</p>
 <p>В пространстве терминов образуется еще один кластер со значениями весов     1 0 0 log N  w  log N  i , а термины, у которых 1  i F , распределены уже по нескольким кластерам, причем в кластер с номером   1 0 log N  попадают самые длинные словосочетания. Это отражает тот факт, что словосочетания являются более специфичными (менее общими) терминами для информационного массива.</p>
 <p>TF*IDF-методика. Методика расчета весов заключается в следующем:</p>
 <p>Пусть документ d состоит из m предложений и может быть представлен в виде набора предложений:</p>
