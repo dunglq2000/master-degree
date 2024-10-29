@@ -25,7 +25,8 @@ parts:
     # - file: banking-system-russia/chapter-3.md
   - caption: Методология и организация научных исследований
     chapters:
-    - file: методология-и-организация-научных-исследований/README.md
+    - file: methodology-research/README.md
+    - file: methodology-research/book-1-chap-0.md
   - caption: ИРФМ
     numbered: false
     chapters:
