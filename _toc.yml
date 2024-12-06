@@ -4,25 +4,25 @@
 format: jb-book
 root: intro
 parts:
-  - caption: БСРФ
-    numbered: false
-    chapters:
-    - file: banking-system-russia/README.md
-    - file: banking-system-russia/chapter-1.md
-      sections:
-      - file: banking-system-russia/section-1.md
-      - file: banking-system-russia/section-2.md
-      - file: banking-system-russia/section-3.md
-      - file: banking-system-russia/section-4.md
-      - file: banking-system-russia/section-5.md
-      - file: banking-system-russia/section-6.md
-      - file: banking-system-russia/section-7.md
-      - file: banking-system-russia/section-8.md
-      - file: banking-system-russia/section-9.md
-      - file: banking-system-russia/section-10.md
-      - file: banking-system-russia/section-11.md
-      - file: banking-system-russia/section-12.md
-    # - file: banking-system-russia/chapter-3.md
+  # - caption: БСРФ
+  #   numbered: false
+  #   chapters:
+  #   - file: banking-system-russia/README.md
+  #   - file: banking-system-russia/chapter-1.md
+  #     sections:
+  #     - file: banking-system-russia/section-1.md
+  #     - file: banking-system-russia/section-2.md
+  #     - file: banking-system-russia/section-3.md
+  #     - file: banking-system-russia/section-4.md
+  #     - file: banking-system-russia/section-5.md
+  #     - file: banking-system-russia/section-6.md
+  #     - file: banking-system-russia/section-7.md
+  #     - file: banking-system-russia/section-8.md
+  #     - file: banking-system-russia/section-9.md
+  #     - file: banking-system-russia/section-10.md
+  #     - file: banking-system-russia/section-11.md
+  #     - file: banking-system-russia/section-12.md
+  #   - file: banking-system-russia/chapter-3.md
   - caption: Методология и организация научных исследований
     chapters:
     - file: methodology-research/README.md
@@ -55,14 +55,15 @@ parts:
     - file: infosec/lectures.md
   - caption: Национальная система по ПОД/ФТ
     chapters:
-    - file: CML-TF/README.md
-      sections:
-        - file: CML-TF/lecture-1.md
-        - file: CML-TF/lecture-2.md
-        - file: CML-TF/lecture-3.md
-        - file: CML-TF/lecture-4.md
-        - file: CML-TF/lecture-5.md
-        - file: CML-TF/lecture-6.md
+    - file: CML-TF/lecture-1.md
+    - file: CML-TF/lecture-2.md
+    - file: CML-TF/lecture-3.md
+    - file: CML-TF/lecture-4.md
+    - file: CML-TF/lecture-5.md
+    - file: CML-TF/lecture-6.md
+    - file: CML-TF/lecture-7.md
+    - file: CML-TF/lecture-8.md
+    - file: CML-TF/lecture-9.md
   - caption: Специальные технологии БД и ИС
     chapters:
     - file: database/README.md
