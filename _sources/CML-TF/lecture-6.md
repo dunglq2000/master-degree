@@ -1,10 +1,10 @@
-## Лекция 6. Основные этапы становления национальной системы ПОД/ФТ
+# Лекция 6. Основные этапы становления национальной системы ПОД/ФТ
 
-### Основные этапы становления национальной системы ПОД/ФТ
+## Основные этапы становления национальной системы ПОД/ФТ
 
 ![](lectures-6-1.png)
 
-### 1994
+## 1994
 
 Формирование национальной системы ПОД/ФТ в России началось с разработки концепции и проекта Федерального закона **«Об ответственности за легализацию преступных доходов»** в соответствии с Указом Президента Российской Федерации №1016 от 24 мая 1994 года.
 
@@ -16,7 +16,7 @@ Sự hình thành hệ thống AML/CFT quốc gia ở Nga bắt đầu bằng vi
 
 Trong quá trình soạn thảo Luật Liên bang này, khi phối hợp với các cơ quan thực thi pháp luật, kinh tế và tài chính, khái niệm của nó đã thay đổi. Dự luật được gọi là dự thảo Luật Liên bang **“Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”**.
 
-### 1996
+## 1996
 
 В связи с подготовкой рассматриваемого Федерального закона в принятом в 1996 году Уголовном кодексе Российской Федерации появилась **статья 174**, установившая уголовную ответственность за легализацию (отмывание) доходов, полученных незаконным путем.
 
@@ -28,19 +28,19 @@ Liên quan đến việc soạn thảo Luật Liên bang đang được xem xét
 
 Khái niệm tương tự đã được thực hiện trong quá trình xây dựng Luật mẫu **“Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”**, được Hội đồng liên nghị viện của các quốc gia thành viên CIS thông qua vào ngày 8 tháng 12 năm 1998.
 
-### 1997
+## 1997
 
 Россия приняла участие в деятельности **Комитета Совета Европы по оценке мер борьбы с отмыванием денег**, созданного в 1997 году.
 
 Nga đã tham gia vào các hoạt động của **Ủy ban đánh giá chống rửa tiền của Hội đồng Châu Âu**, được thành lập vào năm 1997.
 
-### 1998
+## 1998
 
 21 октября 1998 года Государственная Дума Российской Федерации приняла Федеральный закон **«О противодействии легализации (отмыванию) доходов, полученных незаконным путем»**, который затем не получил необходимого одобрения со стороны Совета Федерации.
 
 Vào ngày 21 tháng 10 năm 1998, Duma Quốc gia Liên bang Nga đã thông qua Luật Liên bang **"Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp"**, sau đó không nhận được sự chấp thuận cần thiết từ Hội đồng Liên bang.
 
-### 1999
+## 1999
 
 В мае 1999 года **Россия подписала Страсбургскую конвенцию** Совета Европы об отмывании, выявлении, изъятии и конфискации доходов от преступной деятельности 1990 года. Чуть позднее при МВД РФ был создан **Межведомственный центр по ПОД/ФТ**.
 
@@ -104,7 +104,7 @@ Sau khi hoàn thiện dự luật vào ngày 4 tháng 6 năm 1999, nó đã đư
 
 Theo dự luật này, các báo cáo về các giao dịch chịu sự kiểm soát bắt buộc lẽ ra phải được gửi đến các cơ quan thanh tra thuế tiểu bang và về các giao dịch bằng ngoại tệ - tới Cơ quan Kiểm soát Xuất khẩu và Tiền tệ Liên bang Nga. Cách tiếp cận như vậy sẽ không cho phép thành lập một đơn vị tình báo tài chính thống nhất ở Nga.
 
-### 2000
+## 2000
 
 В июне 2000 г. **ФАТФ опубликовала список стран** и территорий, которые **не принимают целенаправленных мер** по предотвращению отмывания денег. Среди 15 стран, включенных в первую редакцию «черного списка» ФАТФ, **была указана и Россия**.
 
@@ -116,7 +116,7 @@ Vào tháng 6 năm 2000, **FATF đã công bố danh sách các quốc gia** và
 
 Cần phải thừa nhận rằng tại thời điểm FATF đánh giá, thực sự ở Nga không có hệ thống chống rửa tiền. Là yếu tố chính cản trở việc cải thiện chế độ quốc gia trong lĩnh vực này, các chuyên gia của FATF chỉ ra rằng **ở Nga thiếu luật cơ bản** về chống rửa tiền và các quy định đảm bảo việc thực thi luật này đáp ứng các tiêu chuẩn quốc tế.
 
-### 2001 Апрель
+## 2001 Апрель
 
 Важнейшим шагом России по созданию национальной системы ПОД/ФТ стала доработка имевшихся проектов законов **«О противодействии легализации (отмыванию) доходов, полученных незаконным путем»**, и «О **внесении изменений и дополнений** в законодательные акты Российской Федерации в связи с принятием Федерального Закона «О противодействии легализации (отмыванию) доходов, полученных незаконным путем». 
 
@@ -132,37 +132,37 @@ Những sửa đổi về luật
 
 **Các dự luật đã được Tổng thống Liên bang Nga đưa vào Duma Quốc gia** vào **tháng 4 năm 2001** và trở thành chủ đề thảo luận sôi nổi ở đó. Trong quá trình thông qua các dự luật, **một số sửa đổi của quốc hội** đã được đưa vào chúng, chủ yếu nhằm mục đích **thu hẹp phạm vi hành động**.
 
-### 1 Ноября 2001
+## 1 Ноября 2001
 
 Создан **Комитет по финансовому мониторингу** (с 2004 года - Федеральная служба по финансовому мониторингу), выполняющий функции ПФР. С момента принятия закона **«О противодействии легализации (отмыванию) доходов, полученных незаконным путем»** и создания Комитета по финансовому мониторингу в России сделан значительный шаг вперед в отношении противодействия отмыванию денег.
 
 **Ủy ban Giám sát Tài chính** được thành lập (từ năm 2004 - Cơ quan Giám sát Tài chính Liên bang), thực hiện các chức năng của Quỹ Hưu trí. Kể từ khi thông qua luật **“Về chống hợp pháp hóa (rửa tiền) thu nhập có được bất hợp pháp”** và việc thành lập Ủy ban giám sát tài chính ở Nga, một bước tiến đáng kể đã được thực hiện liên quan đến việc chống rửa tiền.
 
-### 2002
+## 2002
 
 В июне 2002 года Россия была исключена из «черного списка» ФАТФ, что стало оценкой всех тех усилий и шагов, которые были предприняты в нашей стране в сфере борьбы с отмыванием преступных доходов.
 
 Vào tháng 6 năm 2002, Nga đã bị loại khỏi danh sách đen của FATF, đây là sự đánh giá về tất cả những nỗ lực và bước đi mà nước ta đã thực hiện trong cuộc chiến chống rửa tiền.
 
-### 2003, июнь
+## 2003, июнь
 
 Россия стала полноправным членом Группы разработки финансовых мер борьбы с отмыванием денег (FATF).
 
 Nga đã trở thành thành viên chính thức của Lực lượng đặc nhiệm hành động tài chính (FATF).
 
-### 2004, март
+## 2004, март
 
 Указом Президента Российской Федерации **«О системе и структуре федеральных органов исполнительной власти»** от 9 марта 2004 г. № 314 КФМ России преобразован в **Федеральную службу по финансовому мониторингу (Росфинмониторинг)**, подведомственную Министерству финансов РФ.
 
 Theo Nghị định của Tổng thống Liên bang Nga **“Về hệ thống và cơ cấu của các cơ quan hành pháp liên bang”** ngày 9 tháng 3 năm 2004 số 314, CFM của Nga đã được chuyển đổi thành **Cơ quan giám sát tài chính liên bang (Rosfinmonitoring)**, trực thuộc Bộ Tài chính Liên bang Nga.
 
-### 2004, октябрь
+## 2004, октябрь
 
 **Создание Евразийской группы** по противодействию легализации преступных доходов и финансированию терроризма (ЕАГ), в нее вошли Россия, Беларусь, Казахстан, Киргизия, Китай и Таджикистан.
 
 **Thành lập Nhóm Á-Âu** về chống rửa tiền và tài trợ cho khủng bố (EAG), bao gồm Nga, Belarus, Kazakhstan, Kyrgyzstan, Trung Quốc và Tajikistan.
 
-### 2005, Декабрь
+## 2005, Декабрь
 
 **12 декабря 2005 г.** в соответствии с распоряжением Правительства Российской Федерации от 21 ноября 2005 г. № 1989-р создана Автономная некоммерческая организация «Международный учебно-методический центр финансового мониторинга» (сокращенное наименование - МУМЦФМ).
 
@@ -172,7 +172,7 @@ Theo Nghị định của Tổng thống Liên bang Nga **“Về hệ thống v
 
 Цели МУМЦФМ
 
-### 2012, июнь
+## 2012, июнь
 
 В соответствии с **Указом Президента Российской Федерации № 808** Росфинмониторинг перешел в прямое подчинение Президенту Российской Федерации. И к прочим функциям, которые получила финансовая разведка
 
@@ -184,7 +184,7 @@ Theo **Nghị định của Tổng thống Liên bang Nga số 808** Rosfinmonit
 
 Trong quá trình tái giao cho Nga, một cơ quan khác đã được bổ sung - **chức năng của một trung tâm quốc gia để đánh giá rủi ro và mối đe dọa đối với an ninh quốc gia** phát sinh từ việc hợp pháp hóa (rửa tiền) tiền thu được từ tội phạm, tài trợ cho khủng bố và phổ biến vũ khí hạt nhân. của vũ khí hủy diệt hàng loạt.
 
-### 2012, июль
+## 2012, июль
 
 В соответствии с распоряжением Президента Российской Федерации была создана Межведомственная рабочая группа по противодействию незаконным финансовым операциям (далее - МРГ).
 
@@ -196,13 +196,13 @@ Theo lệnh của Tổng thống Liên bang Nga, Nhóm công tác liên ngành v
 
 IWG là cơ quan điều phối được thành lập để đảm bảo sự tương tác hiệu quả giữa các cơ quan hành pháp liên bang, các cơ quan chính phủ khác và Ngân hàng Trung ương Liên bang Nga (Ngân hàng Nga) trong lĩnh vực ngăn chặn, xác định và ngăn chặn các giao dịch tài chính bất hợp pháp, chống lại việc rút tiền bất hợp pháp. vốn ra nước ngoài và vào lưu thông ngầm
 
-### 2013, июль - 2014, июнь
+## 2013, июль - 2014, июнь
 
 Представитель России Владимир Нечаев являлся президентом **межправительственной Группы разработки финансовых мер по борьбе с отмыванием денег (Financial Action Task Force, FATF)**.
 
 Đại diện Nga Vladimir Nechaev là chủ tịch **Lực lượng đặc nhiệm hành động tài chính liên chính phủ (FATF)**.
 
-### 2013, октябрь
+## 2013, октябрь
 
 На Пленарном заседании ФАТФ **Российская Федерация успешно защитила 6-й отчет** о прогрессе в совершенствовании национальной системы противодействия отмыванию денег и финансированию терроризма.
 
@@ -214,7 +214,7 @@ Tại Hội nghị toàn thể FATF, **Liên bang Nga đã bảo vệ thành cô
 
 **Đất nước của chúng tôi đã gia nhập** câu lạc bộ ưu tú gồm các quốc gia có hệ thống chống rửa tiền quốc gia tuân thủ các tiêu chuẩn quốc tế ở mức tối đa.
 
-### 2016, март
+## 2016, март
 
 - Указом Президента Российской Федерации от 8 марта 2016 года № 103 расширен перечень
 функций финансовой разведки - за Росфинмониторингом закреплены дополнительные
@@ -296,4 +296,4 @@ https://www.fatf gafi.org/media/fatf/documents/reports/mer4/fatf 2019 rossijskaa
 
 Kết quả đánh giá phù hợp với vai trò của quốc gia này là một trong những quốc gia đi đầu trong hệ thống quốc tế chống rửa tiền và tài trợ cho khủng bố cũng như tài trợ cho việc phổ biến vũ khí hủy diệt hàng loạt.
 
-### 24 февраля 2023
+## 24 февраля 2023
