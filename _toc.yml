@@ -64,6 +64,9 @@ parts:
     - file: CML-TF/lecture-7.md
     - file: CML-TF/lecture-8.md
     - file: CML-TF/lecture-9.md
+    - file: CML-TF/lecture-10.md
+    - file: CML-TF/lecture-11.md
+    - file: CML-TF/lecture-12.md
   - caption: Специальные технологии БД и ИС
     chapters:
     - file: database/README.md
