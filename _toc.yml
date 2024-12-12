@@ -55,6 +55,7 @@ parts:
     - file: infosec/lectures.md
   - caption: Национальная система по ПОД/ФТ
     chapters:
+    - file: CML-TF/test.md
     - file: CML-TF/lecture-1.md
     - file: CML-TF/lecture-2.md
     - file: CML-TF/lecture-3.md
