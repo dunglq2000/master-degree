@@ -2,35 +2,57 @@
 
 ## 8.1. Структурная организация научного коллектива  и методы управления научными исследованиями 
 
-Организацией научных исследований является система взаимосвязанных структур и организаций, которые обеспечивали бы оптимальный режим и непрерывное совершенствование научного труда с целью получения эффективных результатов. В соответствии с иерархией структур научных учреждений и ведомств различают организацию научных исследований на различных уровнях:  – организация труда научного работника; – работа подразделений научного учреждения;  – деятельность научного учреждения.  
+Организацией научных исследований является система взаимосвязанных структур и организаций, которые обеспечивали бы оптимальный режим и непрерывное совершенствование научного труда с целью получения эффективных результатов. В соответствии с иерархией структур научных учреждений и ведомств различают организацию научных исследований на различных уровнях:
+
+- организация труда научного работника;
+- работа подразделений научного учреждения;
+- деятельность научного учреждения.  
+
+Tổ chức nghiên cứu khoa học là một hệ thống các cơ cấu và tổ chức liên kết với nhau nhằm đảm bảo các điều kiện tối ưu và cải tiến liên tục công việc khoa học nhằm thu được kết quả hiệu quả. Theo thứ bậc cơ cấu của các cơ quan, phòng ban khoa học, việc tổ chức nghiên cứu khoa học được phân biệt ở nhiều cấp độ khác nhau:
+
+- tổ chức công việc của nhà khoa học;
+- công việc của các phòng ban của một tổ chức khoa học;
+- hoạt động của cơ quan khoa học
+
+---
 
 Важное место занимает научная организация труда. Её основные положения предусматривают высокую организованность труда научного работника, плавность научной работы, контролирование и точное фиксирование результатов работы, обеспечение резерва в научной работе, строгое соблюдение режима и гигиены умственного труда, использование средств для механизации и автоматизации.  
 
-Вопросы организации работы научных коллективов приобретают особое значение, так как их структура должна обеспечить возможность специализации и кооперации труда ученых.  
-
-Структурная организация научного коллектива. В настоящее время наиболее распространена четырехзвенная структура научного учреждения: группа, лаборатория, отдел, учреждение  (или группа, кафедра, факультет, институт).  
-
-Оптимальный состав группы может быть от 3 до 10 научных работников и от 5 до 10 человек вспомогательного персонала. Состав лабораторий колеблется от 20 до 60 человек. Однако не только количество научных сотрудников определяет результат научной работы. Весьма важное значение имеет подбор их по квалификации и специальности. Значительную роль играет руководитель коллектива, который обязан последовательно принимать меры по сплочению коллектива вокруг общих целей [2]. 
-
-В научном учреждении образуют Совет, который является совещательным органом при директоре (ректоре). В состав Совета входят руководители учреждения, его отделов, лабораторий, ведущие ученые и представители общественных организаций. Совет рассматривает научные и технические проблемы, планы, работу отделов и лабораторий и др.  
-
-Управление научными исследованиями представляет собой целенаправленное воздействие на коллективы научных работников для организации и координации их деятельности в процессе производства новых научных знаний и эффективного использования их на практике.  
-
-Численность научного коллектива имеет серьезное значение при выборе методов и средств его управления. Когда в непосредственном подчинении оказывается более семи или восьми человек, руководитель в процессе управления начинает испытывать определенные трудности, и они непрерывно возрастают с ростом численности коллектива.  
-
-Tổ chức nghiên cứu khoa học là một hệ thống các cơ cấu và tổ chức liên kết với nhau nhằm đảm bảo các điều kiện tối ưu và cải tiến liên tục công việc khoa học nhằm thu được kết quả hiệu quả. Theo thứ bậc cơ cấu của các cơ quan, phòng ban khoa học, việc tổ chức nghiên cứu khoa học được phân biệt ở nhiều cấp độ khác nhau: – tổ chức công việc của nhà khoa học; – công việc của các phòng ban của một tổ chức khoa học; - Hoạt động của cơ quan khoa học
-
 Việc tổ chức lao động khoa học chiếm một vị trí quan trọng. Các quy định chính của nó quy định về công việc có tính tổ chức cao của một nhà khoa học, sự suôn sẻ của công việc khoa học, kiểm soát và ghi lại chính xác kết quả công việc, cung cấp dự trữ trong công việc khoa học, tuân thủ nghiêm ngặt chế độ và vệ sinh công việc trí óc và sử dụng các phương tiện cho cơ giới hóa và tự động hóa.
+
+---
+
+Вопросы организации работы научных коллективов приобретают особое значение, так как их структура должна обеспечить возможность специализации и кооперации труда ученых.  
 
 Vấn đề tổ chức công việc của các nhóm khoa học có tầm quan trọng đặc biệt, vì cơ cấu của họ phải tạo ra khả năng chuyên môn hóa và hợp tác trong công việc của các nhà khoa học.
 
+---
+
+Структурная организация научного коллектива. В настоящее время наиболее распространена четырехзвенная структура научного учреждения: группа, лаборатория, отдел, учреждение  (или группа, кафедра, факультет, институт).  
+
 Cơ cấu tổ chức của nhóm khoa học. Hiện nay, cấu trúc bốn cấp phổ biến nhất của một tổ chức khoa học là: nhóm, phòng thí nghiệm, khoa, viện (hoặc nhóm, khoa, khoa, viện).
+
+---
+
+Оптимальный состав группы может быть от 3 до 10 научных работников и от 5 до 10 человек вспомогательного персонала. Состав лабораторий колеблется от 20 до 60 человек. Однако не только количество научных сотрудников определяет результат научной работы. Весьма важное значение имеет подбор их по квалификации и специальности. Значительную роль играет руководитель коллектива, который обязан последовательно принимать меры по сплочению коллектива вокруг общих целей [2]. 
 
 Thành phần tối ưu của nhóm có thể từ 3 đến 10 nhà khoa học và từ 5 đến 10 nhân viên hỗ trợ. Thành phần của các phòng thí nghiệm dao động từ 20 đến 60 người. Tuy nhiên, không chỉ số lượng nhân viên khoa học mới quyết định kết quả của công việc khoa học. Điều rất quan trọng là chọn họ theo trình độ và chuyên môn của họ. Trưởng nhóm đóng một vai trò quan trọng, người có nghĩa vụ phải liên tục thực hiện các biện pháp để đoàn kết nhóm xung quanh các mục tiêu chung [2].
 
-Cơ quan khoa học thành lập Hội đồng, là cơ quan tư vấn dưới sự giám đốc (hiệu trưởng). Hội đồng bao gồm những người đứng đầu tổ chức, các phòng ban, phòng thí nghiệm, các nhà khoa học hàng đầu và đại diện của các tổ chức công cộng. Hội đồng xem xét các vấn đề khoa học kỹ thuật, kế hoạch, công việc của các phòng ban, phòng thí nghiệm...
+---
+
+В научном учреждении образуют Совет, который является совещательным органом при директоре (ректоре). В состав Совета входят руководители учреждения, его отделов, лабораторий, ведущие ученые и представители общественных организаций. Совет рассматривает научные и технические проблемы, планы, работу отделов и лабораторий и др.  
+
+Cơ quan khoa học thành lập Hội đồng, là cơ quan tư vấn dưới sự giám đốc (hiệu trưởng). Hội đồng bao gồm những người đứng đầu tổ chức, các phòng ban, phòng thí nghiệm, các nhà khoa học hàng đầu và đại diện của các tổ chức công cộng. Hội đồng xem xét các vấn đề khoa học kỹ thuật, kế hoạch, công việc của các phòng ban, phòng thí nghiệm, ...
+
+---
+
+Управление научными исследованиями представляет собой целенаправленное воздействие на коллективы научных работников для организации и координации их деятельности в процессе производства новых научных знаний и эффективного использования их на практике.  
 
 Quản lý nghiên cứu là tác động có mục tiêu đến các nhóm nhà khoa học nhằm tổ chức và điều phối các hoạt động của họ trong quá trình tạo ra kiến ​​thức khoa học mới và sử dụng hiệu quả kiến ​​thức đó trong thực tế.
+
+---
+
+Численность научного коллектива имеет серьезное значение при выборе методов и средств его управления. Когда в непосредственном подчинении оказывается более семи или восьми человек, руководитель в процессе управления начинает испытывать определенные трудности, и они непрерывно возрастают с ростом численности коллектива.  
 
 Quy mô của nhóm khoa học có tầm quan trọng lớn khi lựa chọn phương pháp và phương tiện quản lý. Khi có hơn bảy hoặc tám người trực tiếp cấp dưới, người quản lý bắt đầu gặp những khó khăn nhất định trong quá trình quản lý và chúng không ngừng tăng lên cùng với sự tăng trưởng của số lượng nhóm.
 
@@ -272,69 +294,131 @@ Cố gắng tránh hoàn toàn xung đột thậm chí có thể gây tổn hạ
 
 Научная деятельность имеет ряд специфических особенностей. Говоря об этих особенностях, необходимо различать два их вида. Индивидуальная научная деятельность – процесс научной работы отдельного исследователя. Коллективная научная деятельность – деятельность всего сообщества ученых, работающих в данной отрасли науки, или работа научного коллектива исследовательского института, научных групп.  
 
+Hoạt động khoa học có một số tính năng cụ thể. Khi nói về những đặc điểm này cần phân biệt hai loại. Hoạt động khoa học cá nhân là quá trình hoạt động khoa học của cá nhân nhà nghiên cứu. Hoạt động khoa học tập thể là hoạt động của toàn bộ cộng đồng các nhà khoa học làm việc trong một ngành khoa học nhất định hoặc là hoạt động của nhóm khoa học của viện nghiên cứu, nhóm khoa học.
+
+---
+
 Рассмотрим несколько особенностей индивидуальной научной деятельности. 
+
+Chúng ta hãy xem xét một số đặc điểm của hoạt động khoa học cá nhân.
+
+---
+
 1. Любая научная работа строится «на плечах предшественников». Прежде чем приступать к научной работе по какой-либо проблеме, необходим наиболее полный анализ научной литературы, т.е. того, что было сделано в исследуемой области предшественниками. 
 2. Научный работник должен четко ограничивать рамки своей деятельности и определять цели своей научной работы. В науке, как и в других областях профессиональной деятельности, происходит естественное разделение труда.  
 
-Научный работник не может заниматься «чистой наукой». Он должен выбрать четкое направление работы, поставить конкретную цель и последовательно идти к ее достижению. Свойством научной работы является то, что на пути исследователя постоянно «попадаются» интереснейшие явления и факты, которые сами по себе имеют большую ценность и которые хочется изучить подробнее. Но тем самым исследователь рискует отвлечься от главной цели своей научной работы и заняться изучением этих побочных явлений и фактов, за которыми могут открыться новые явления и факты, и это может продолжаться без конца. 
+---
 
-Таким образом, работа «расплывется» и результатов может не быть. Это является типичной ошибкой большинства начинающих исследователей.  
-
-Одним из главных качеств является способность научного работника сосредоточиться только на той проблеме, которой он занимается, а все побочные использовать только на том уровне и в той мере, как они описаны в современной научной литературе. 
-
-3. Научный работник обязательно должен освоить научную терминологию и строго выстроить свой понятийный аппарат. Многие начинающие научные работники считают, что если писать как можно сложнее и непонятнее, тем это будет научнее. Главным достоинством настоящего ученого является то, что он говорит и пишет о самых сложных вещах простым языком.  
-
-Исследователь должен провести четкую грань между обыденным и научным языком. Различие заключается в том, что к обыденному разговорному языку не предъявляется особых требований. А научный язык подчиняется определенным правилам и нормам. 
-
-В любой науке параллельно существуют различные научные школы, и каждая выстраивает свой собственный понятийный аппарат. Поэтому, если исследователь возьмет один термин в трактовке одной научной школы, другой – в понимании другой и т.д., в результате получится полный разнобой в использовании понятий. Таким образом, никакой новой системы научного знания исследователь не создаст, поскольку, что бы он ни писал и ни говорил, он не выйдет за рамки обыденного знания. 
-
-4. Результат любого исследования должен быть обязательно оформлен в электронном и печатном виде. Обязательное условие – публикация работы. Она может быть в виде научного доклада, статьи, научного отчета, реферата, учебника.  
-
-Такое требование вызвано двумя обстоятельствами. Во-первых, только в письменном виде можно изложить свои идеи и результаты на строго научном языке. В устной речи это получается крайне редко. Причем написание любой научной работы, даже самой маленькой статьи, для начинающего исследователя представляет большую сложность, поскольку то, что легко проговаривается в публичных выступлениях или же мысленно «про себя», оказывается трудно изложить на бумаге. Здесь та же разница, что и между обыденным и научным языками. В устной речи мы не замечаем логических огрехов. Письменный же текст требует строгого логического изложения, а это сделать намного труднее.  
-
-Во-вторых, главная цель любой научной работы – получить и довести до людей новое полученное научное знание. И если это «новое научное знание» остается только в голове исследователя и о нем никто не сможет прочитать, то это знание пропадет. Кроме того, количество и объем научных публикаций являются показателем продуктивности любого научного работника. И каждый исследователь постоянно старается пополнять список своих опубликованных работ. 
-
-Hoạt động khoa học có một số tính năng cụ thể. Khi nói về những đặc điểm này cần phân biệt hai loại. Hoạt động khoa học cá nhân là quá trình hoạt động khoa học của cá nhân nhà nghiên cứu. Hoạt động khoa học tập thể là hoạt động của toàn bộ cộng đồng các nhà khoa học làm việc trong một ngành khoa học nhất định hoặc là hoạt động của nhóm khoa học của viện nghiên cứu, nhóm khoa học.
-
-Chúng ta hãy xem xét một số đặc điểm của hoạt động khoa học cá nhân.
 1. Mọi công trình khoa học đều được xây dựng “trên vai những người đi trước”. Trước khi bắt đầu công việc khoa học về bất kỳ vấn đề nào, việc phân tích đầy đủ nhất các tài liệu khoa học là cần thiết, tức là. những gì đã được thực hiện trong lĩnh vực được nghiên cứu bởi những người đi trước.
 2. Nhà khoa học phải xác định rõ phạm vi hoạt động và xác định mục tiêu công việc khoa học của mình. Trong khoa học, cũng như trong các lĩnh vực hoạt động chuyên môn khác, có sự phân công lao động một cách tự nhiên.
 
+---
+
+Научный работник не может заниматься «чистой наукой». Он должен выбрать четкое направление работы, поставить конкретную цель и последовательно идти к ее достижению. Свойством научной работы является то, что на пути исследователя постоянно «попадаются» интереснейшие явления и факты, которые сами по себе имеют большую ценность и которые хочется изучить подробнее. Но тем самым исследователь рискует отвлечься от главной цели своей научной работы и заняться изучением этих побочных явлений и фактов, за которыми могут открыться новые явления и факты, и это может продолжаться без конца. 
+
 Một nhà khoa học không thể tham gia vào “khoa học thuần túy”. Anh ta phải chọn một hướng làm việc rõ ràng, đặt ra mục tiêu cụ thể và nhất quán hướng tới việc đạt được nó. Đặc tính của công việc khoa học là trên con đường của nhà nghiên cứu, những hiện tượng và sự kiện thú vị nhất liên tục “bắt gặp”, bản thân chúng có giá trị lớn và người ta muốn nghiên cứu chi tiết hơn. Nhưng khi làm như vậy, nhà nghiên cứu có nguy cơ bị phân tâm khỏi mục tiêu chính của công việc khoa học của mình và nghiên cứu những hiện tượng và sự kiện phụ này, đằng sau đó có thể phát hiện ra những hiện tượng và sự kiện mới và điều này có thể tiếp tục vô tận.
+
+---
+
+Таким образом, работа «расплывется» и результатов может не быть. Это является типичной ошибкой большинства начинающих исследователей.  
 
 Như vậy, công việc sẽ “mờ nhạt” và có thể không có kết quả. Đây là một sai lầm điển hình của hầu hết các nhà nghiên cứu mới vào nghề.
 
+---
+
+Одним из главных качеств является способность научного работника сосредоточиться только на той проблеме, которой он занимается, а все побочные использовать только на том уровне и в той мере, как они описаны в современной научной литературе. 
+
 Một trong những phẩm chất chính là khả năng của một nhà khoa học chỉ tập trung vào vấn đề mà anh ta đang giải quyết và chỉ sử dụng tất cả các vấn đề phụ ở cấp độ và phạm vi mà chúng được mô tả trong tài liệu khoa học hiện đại.
+
+---
+
+3. Научный работник обязательно должен освоить научную терминологию и строго выстроить свой понятийный аппарат. Многие начинающие научные работники считают, что если писать как можно сложнее и непонятнее, тем это будет научнее. Главным достоинством настоящего ученого является то, что он говорит и пишет о самых сложных вещах простым языком.  
+
+---
 
 3. Nhà khoa học phải nắm vững thuật ngữ khoa học và xây dựng chặt chẽ bộ máy khái niệm của mình. Nhiều nhà khoa học mới vào nghề tin rằng nếu bạn viết càng phức tạp và khó hiểu càng tốt thì nó sẽ càng khoa học. Ưu điểm chính của một nhà khoa học thực thụ là anh ta nói và viết về những điều phức tạp nhất bằng ngôn ngữ đơn giản.
 
+---
+
+Исследователь должен провести четкую грань между обыденным и научным языком. Различие заключается в том, что к обыденному разговорному языку не предъявляется особых требований. А научный язык подчиняется определенным правилам и нормам. 
+
 Nhà nghiên cứu phải vạch ra ranh giới rõ ràng giữa ngôn ngữ đời thường và ngôn ngữ khoa học. Sự khác biệt là không có yêu cầu đặc biệt nào đối với ngôn ngữ nói hàng ngày. Và ngôn ngữ khoa học phải tuân theo những quy tắc và chuẩn mực nhất định.
+
+---
+
+В любой науке параллельно существуют различные научные школы, и каждая выстраивает свой собственный понятийный аппарат. Поэтому, если исследователь возьмет один термин в трактовке одной научной школы, другой – в понимании другой и т.д., в результате получится полный разнобой в использовании понятий. Таким образом, никакой новой системы научного знания исследователь не создаст, поскольку, что бы он ни писал и ни говорил, он не выйдет за рамки обыденного знания. 
 
 Trong bất kỳ ngành khoa học nào cũng có nhiều trường phái khoa học song song và mỗi trường xây dựng bộ máy khái niệm của riêng mình. Do đó, nếu một nhà nghiên cứu sử dụng thuật ngữ này theo cách giải thích của một trường phái khoa học này, thuật ngữ khác theo cách hiểu của một trường phái khoa học khác, v.v., thì kết quả sẽ là một sự khác biệt hoàn toàn trong việc sử dụng các khái niệm. Như vậy, nhà nghiên cứu sẽ không tạo ra bất kỳ hệ thống kiến ​​thức khoa học mới nào, vì dù viết hay nói gì, anh ta cũng sẽ không vượt ra ngoài khuôn khổ kiến ​​thức thông thường.
 
+---
+
+4. Результат любого исследования должен быть обязательно оформлен в электронном и печатном виде. Обязательное условие – публикация работы. Она может быть в виде научного доклада, статьи, научного отчета, реферата, учебника.  
+
+---
+
 4. Kết quả của bất kỳ nghiên cứu nào đều phải được ghi lại dưới dạng điện tử và in. Điều kiện tiên quyết là xuất bản tác phẩm. Nó có thể ở dạng báo cáo khoa học, bài báo, báo cáo khoa học, tóm tắt, sách giáo khoa.
 
+---
+
+Такое требование вызвано двумя обстоятельствами. Во-первых, только в письменном виде можно изложить свои идеи и результаты на строго научном языке. В устной речи это получается крайне редко. Причем написание любой научной работы, даже самой маленькой статьи, для начинающего исследователя представляет большую сложность, поскольку то, что легко проговаривается в публичных выступлениях или же мысленно «про себя», оказывается трудно изложить на бумаге. Здесь та же разница, что и между обыденным и научным языками. В устной речи мы не замечаем логических огрехов. Письменный же текст требует строгого логического изложения, а это сделать намного труднее.  
+
 Yêu cầu này xuất phát từ hai trường hợp. Thứ nhất, chỉ bằng văn bản, bạn mới có thể trình bày ý tưởng và kết quả của mình bằng ngôn ngữ khoa học chặt chẽ. Trong lời nói, điều này cực kỳ hiếm khi xảy ra. Hơn nữa, việc viết bất kỳ công trình khoa học nào, dù là bài báo nhỏ nhất, cũng rất khó đối với một nhà nghiên cứu mới vào nghề, vì những gì dễ dàng nói ra trong các bài phát biểu trước công chúng hoặc “với chính mình” trong tâm trí hóa ra lại khó viết ra giấy. Đây là sự khác biệt tương tự giữa ngôn ngữ thông thường và ngôn ngữ khoa học. Trong lời nói, chúng ta không nhận thấy những sai sót logic. Văn bản viết yêu cầu trình bày logic chặt chẽ và điều này khó thực hiện hơn nhiều.
+
+---
+
+Во-вторых, главная цель любой научной работы – получить и довести до людей новое полученное научное знание. И если это «новое научное знание» остается только в голове исследователя и о нем никто не сможет прочитать, то это знание пропадет. Кроме того, количество и объем научных публикаций являются показателем продуктивности любого научного работника. И каждый исследователь постоянно старается пополнять список своих опубликованных работ. 
 
 Thứ hai, mục tiêu chính của bất kỳ công việc khoa học nào là thu thập và mang đến cho con người những kiến ​​thức khoa học mới tiếp thu được. Và nếu “kiến thức khoa học mới” này chỉ đọng lại trong đầu người nghiên cứu và không ai có thể đọc được về nó thì kiến ​​thức này sẽ bị mất đi. Ngoài ra, số lượng và khối lượng công bố khoa học là thước đo năng suất của bất kỳ nhà khoa học nào. Và mọi nhà nghiên cứu không ngừng cố gắng mở rộng danh sách các tác phẩm đã xuất bản của mình.
 
 ---
 
-Рассмотрим некоторые особенности коллективной научной деятельности. 
+Рассмотрим некоторые особенности коллективной научной деятельности.
+
+Chúng ta hãy xem xét một số đặc điểm của hoạt động khoa học tập thể.
+
+---
 
 1. Коммуникации в науке. Любые научные исследования могут проводиться только в определенном сообществе ученых. Это обусловлено тем, что любому исследователю, даже самому квалифицированному, всегда необходимо обговаривать и обсуждать с коллегами свои идеи, полученные факты, теоретические построения, чтобы избежать ошибок и заблуждений.  
 
+---
+
+1. Truyền thông trong khoa học. Bất kỳ nghiên cứu khoa học nào chỉ có thể được thực hiện trong một cộng đồng các nhà khoa học nhất định. Điều này là do bất kỳ nhà nghiên cứu nào, dù là người có trình độ cao nhất, luôn cần thảo luận, trao đổi với đồng nghiệp về ý tưởng, sự thật, cơ sở lý thuyết của mình để tránh những sai sót, quan niệm sai lầm.
+
+---
+
 Начинающие исследователи нередко считают, что будут заниматься научной работой сами по себе, а когда получат большие результаты, тогда и будут их публиковать. Такие исследователи запутывались в своих исканиях и, разочаровавшись, оставляли научную деятельность. Поэтому необходимо научное общение.  
+
+Các nhà nghiên cứu mới bắt đầu thường tin rằng họ sẽ tự mình thực hiện công việc khoa học và khi đạt được kết quả tốt thì họ sẽ công bố chúng. Những nhà nghiên cứu như vậy trở nên bối rối trong quá trình tìm kiếm và vỡ mộng, từ bỏ hoạt động khoa học của mình. Vì vậy, việc giao tiếp khoa học là cần thiết.
+
+---
 
 Одним из условий научного общения для любого исследователя является его непосредственное и опосредованное общение со всеми коллегами, работающими в данной отрасли науки. Это могут буть различные научно-практические конференции, семинары и симпозиумы (непосредственное или вертуальное общение), а также научная литература – статьи в печатных и электронных журналах, сборниках (опосредованное общение). И в том и в другом случае исследователь, с одной стороны, выступает сам или публикует свои результаты, а с другой стороны – слушает и читает то, чем занимаются другие исследователи, его коллеги. 
 
+Một trong những điều kiện để giao tiếp khoa học đối với bất kỳ nhà nghiên cứu nào là giao tiếp trực tiếp và gián tiếp với tất cả các đồng nghiệp làm việc trong ngành khoa học này. Đây có thể là các hội nghị, hội thảo và hội nghị khoa học và thực tiễn khác nhau (giao tiếp trực tiếp hoặc ảo), cũng như các tài liệu khoa học - các bài báo trên các tạp chí in và điện tử, các bộ sưu tập (giao tiếp qua trung gian). Trong cả hai trường hợp, nhà nghiên cứu một mặt tự nói hoặc công bố kết quả của mình, mặt khác lắng nghe và đọc những gì các nhà nghiên cứu khác, đồng nghiệp của mình đang làm.
+
+---
+
 2. Плюрализм научного мнения. Поскольку любая научная работа является процессом творческим, очень важно, чтобы этот процесс не был «зарегламентирован». Научная работа каждого исследовательского коллектива должна довольно строго планироваться. Но при этом каждый исследователь имеет право на свою точку зрения, свое мнение, которые, безусловно, должны уважаться. Навязывание всем общей единой точки зрения никогда не приводило к положительному результату. Этим фактором обусловлено существование в одной и той же отрасли науки различных научных школ. Жизнь и практика впоследствии могут подтвердить или опровергнуть различные теории или же примирить их, как, например, примирила таких ярых противников, какими были в свое время Р. Гук и И. Ньютон в физике, или И.П. Павлов и А.А. Ухтомский в физиологии. 
 
-3. Внедрение результатов исследования – важнейший этап научной деятельности, поскольку конечной целью науки как отрасли народного хозяйства является внедрение полученных результатов в практику. Однако не все результаты научной работы должны быть обязательно внедрены.  
+---
+
+2. Tính đa nguyên của quan điểm khoa học. Vì bất kỳ công việc khoa học nào cũng là một quá trình sáng tạo nên điều quan trọng là quá trình này không bị “điều chỉnh”. Công việc khoa học của mỗi nhóm nghiên cứu phải được lên kế hoạch khá chặt chẽ. Nhưng đồng thời, mỗi nhà nghiên cứu đều có quyền có quan điểm, ý kiến ​​riêng của mình, tất nhiên phải được tôn trọng. Việc áp đặt quan điểm chung, thống nhất cho mọi người chưa bao giờ mang lại kết quả tích cực. Yếu tố này quyết định sự tồn tại của các trường phái khoa học khác nhau trong cùng một ngành khoa học. Cuộc sống và thực tiễn sau đó có thể xác nhận hoặc bác bỏ các lý thuyết khác nhau hoặc dung hòa chúng, chẳng hạn như nó dung hòa những đối thủ nhiệt thành như R. Hooke và I. Newton trong ngành vật lý, hay I.P. Pavlov và A.A. Ukhtomsky trong sinh lý học.
+
+---
+
+3. Внедрение результатов исследования – важнейший этап научной деятельности, поскольку конечной целью науки как отрасли народного хозяйства является внедрение полученных результатов в практику. Однако не все результаты научной работы должны быть обязательно внедрены.
+
+---
+
+3. Việc triển khai kết quả nghiên cứu là giai đoạn quan trọng nhất của hoạt động khoa học, vì mục tiêu cuối cùng của khoa học với tư cách là một ngành của nền kinh tế quốc dân là triển khai các kết quả thu được vào thực tiễn. Tuy nhiên, không phải mọi kết quả công tác khoa học đều nhất thiết phải được thực hiện.
+
+---
 
 Довольно часто исследования проводятся для обогащения самой науки, развития ее теории и арсенала ее фактов. Лишь при накоплении определенной «критической массы» фактов, концепций, происходят качественные скачки – внедрение достижений науки в массовую практику. Например, микология – наука о плесенях. Десятилетиями ученыемикологи пытались доказать, что плесень надо изучать, а не уничтожать. Это происходило до тех пор, пока в 1940 г. А. Флеминг не открыл бактерицидные свойства пенициллов (разновидности плесени). Созданные на их основе антибиотики позволили во время Второй мировой войны спасти миллионы человеческих жизней, а сегодня мы уже не представляем, как бы без них обходилась медицина [1]. 
 
-Вопросы для самоконтроля 
+Khá thường xuyên, nghiên cứu được thực hiện để làm phong phú thêm bản thân khoa học, phát triển lý thuyết và kho dữ liệu thực tế của nó. Chỉ khi tích lũy được một “khối lượng quan trọng” các sự kiện và khái niệm nhất định thì những bước nhảy vọt về chất mới xảy ra - việc đưa các thành tựu khoa học vào thực tiễn đại chúng. Ví dụ, nấm học là khoa học về nấm mốc. Trong nhiều thập kỷ, các nhà nấm học đã cố gắng chứng minh rằng nấm mốc nên được nghiên cứu chứ không phải tiêu diệt. Điều này xảy ra cho đến năm 1940 A. Fleming phát hiện ra đặc tính diệt khuẩn của penicillium (một loại nấm mốc). Thuốc kháng sinh được tạo ra trên cơ sở của chúng đã giúp cứu sống hàng triệu người trong Chiến tranh thế giới thứ hai, và ngày nay chúng ta không còn có thể tưởng tượng được y học sẽ hoạt động như thế nào nếu không có chúng [1].
+
+## Вопросы для самоконтроля 
 
 1. Какие виды методов управления научными исследованиями вам известны? 
 2. Перечислите основные принципы организации и управления научным коллективом. 
@@ -347,21 +431,7 @@ Thứ hai, mục tiêu chính của bất kỳ công việc khoa học nào là 
 9. Что такое научный коллектив? 
 10. Что может навредить деятельности научного коллектива? 
 
-Chúng ta hãy xem xét một số đặc điểm của hoạt động khoa học tập thể.
-
-1. Truyền thông trong khoa học. Bất kỳ nghiên cứu khoa học nào chỉ có thể được thực hiện trong một cộng đồng các nhà khoa học nhất định. Điều này là do bất kỳ nhà nghiên cứu nào, dù là người có trình độ cao nhất, luôn cần thảo luận, trao đổi với đồng nghiệp về ý tưởng, sự thật, cơ sở lý thuyết của mình để tránh những sai sót, quan niệm sai lầm.
-
-Các nhà nghiên cứu mới bắt đầu thường tin rằng họ sẽ tự mình thực hiện công việc khoa học và khi đạt được kết quả tốt thì họ sẽ công bố chúng. Những nhà nghiên cứu như vậy trở nên bối rối trong quá trình tìm kiếm và vỡ mộng, từ bỏ hoạt động khoa học của mình. Vì vậy, việc giao tiếp khoa học là cần thiết.
-
-Một trong những điều kiện để giao tiếp khoa học đối với bất kỳ nhà nghiên cứu nào là giao tiếp trực tiếp và gián tiếp với tất cả các đồng nghiệp làm việc trong ngành khoa học này. Đây có thể là các hội nghị, hội thảo và hội nghị khoa học và thực tiễn khác nhau (giao tiếp trực tiếp hoặc ảo), cũng như các tài liệu khoa học - các bài báo trên các tạp chí in và điện tử, các bộ sưu tập (giao tiếp qua trung gian). Trong cả hai trường hợp, nhà nghiên cứu một mặt tự nói hoặc công bố kết quả của mình, mặt khác lắng nghe và đọc những gì các nhà nghiên cứu khác, đồng nghiệp của mình đang làm.
-
-2. Tính đa nguyên của quan điểm khoa học. Vì bất kỳ công việc khoa học nào cũng là một quá trình sáng tạo nên điều quan trọng là quá trình này không bị “điều chỉnh”. Công việc khoa học của mỗi nhóm nghiên cứu phải được lên kế hoạch khá chặt chẽ. Nhưng đồng thời, mỗi nhà nghiên cứu đều có quyền có quan điểm, ý kiến ​​riêng của mình, tất nhiên phải được tôn trọng. Việc áp đặt quan điểm chung, thống nhất cho mọi người chưa bao giờ mang lại kết quả tích cực. Yếu tố này quyết định sự tồn tại của các trường phái khoa học khác nhau trong cùng một ngành khoa học. Cuộc sống và thực tiễn sau đó có thể xác nhận hoặc bác bỏ các lý thuyết khác nhau hoặc dung hòa chúng, chẳng hạn như nó dung hòa những đối thủ nhiệt thành như R. Hooke và I. Newton trong ngành vật lý, hay I.P. Pavlov và A.A. Ukhtomsky trong sinh lý học.
-
-3. Việc triển khai kết quả nghiên cứu là giai đoạn quan trọng nhất của hoạt động khoa học, vì mục tiêu cuối cùng của khoa học với tư cách là một ngành của nền kinh tế quốc dân là triển khai các kết quả thu được vào thực tiễn. Tuy nhiên, không phải mọi kết quả công tác khoa học đều nhất thiết phải được thực hiện.
-
-Khá thường xuyên, nghiên cứu được thực hiện để làm phong phú thêm bản thân khoa học, phát triển lý thuyết và kho dữ liệu thực tế của nó. Chỉ khi tích lũy được một “khối lượng quan trọng” các sự kiện và khái niệm nhất định thì những bước nhảy vọt về chất mới xảy ra - việc đưa các thành tựu khoa học vào thực tiễn đại chúng. Ví dụ, nấm học là khoa học về nấm mốc. Trong nhiều thập kỷ, các nhà nấm học đã cố gắng chứng minh rằng nấm mốc nên được nghiên cứu chứ không phải tiêu diệt. Điều này xảy ra cho đến năm 1940 A. Fleming phát hiện ra đặc tính diệt khuẩn của penicillium (một loại nấm mốc). Thuốc kháng sinh được tạo ra trên cơ sở của chúng đã giúp cứu sống hàng triệu người trong Chiến tranh thế giới thứ hai, và ngày nay chúng ta không còn có thể tưởng tượng được y học sẽ hoạt động như thế nào nếu không có chúng [1].
-
-Câu hỏi để tự kiểm soát
+Câu hỏi để tự kiểm tra
 
 1. Bạn biết những loại phương pháp quản lý nghiên cứu nào?
 2. Nêu những nguyên tắc cơ bản về tổ chức, quản lý nhóm khoa học.
