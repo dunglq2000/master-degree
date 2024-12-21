@@ -50,6 +50,7 @@ parts:
     - file: infores-finmon/lecture-5IS.md
     - file: infores-finmon/lecture-5.md
     - file: infores-finmon/lecture-6.md
+    - file: infores-finmon/control.md
   - caption: Актуальные подходы к обеспечению безопасности информации
     chapters:
     - file: infosec/lectures.md
