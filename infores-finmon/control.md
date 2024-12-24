@@ -1324,7 +1324,7 @@ Các đối tượng và hiện tượng của hiện thực khách quan đượ
 
 Ví dụ, hãy xem xét mô hình nấm. Nó bao gồm các từ: boletus, boletus, fly agaric, russula, v.v. Trong nhóm từ vựng - ngữ nghĩa như vậy, người ta có thể phân biệt các mô hình “nấm ăn được”, “nấm ăn được có điều kiện”, “nấm độc”, “nấm phiến”, “nấm hình ống”, v.v. Hơn nữa, nếu các mô hình “nấm ăn được” và “nấm độc” không giao nhau, thì trong mô hình “nấm ăn được” (camelina, bông tai, boletus, boletus, russula, boletus) và “nấm đĩa” (lạc đà, bông tai, russula, nấm bay, nấm cóc) là những từ phổ biến.
 
-```{figure}
+```{figure} 5-2.png
 Рис. 5.2. Пример лексико-семантической парадигмы
 ```
 
@@ -1368,7 +1368,7 @@ Theo đó, định nghĩa này giả định việc xác định hai khía cạn
 
 Состав лингвистического обеспечения информационных систем может быть представлен следующей схемой (рис. 5.3):
 
-```{figure}
+```{figure} 5-3.png
 Рис. 5.3. Состав ЛО информационных систем
 ```
 
