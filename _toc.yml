@@ -23,23 +23,23 @@ parts:
   #     - file: banking-system-russia/section-11.md
   #     - file: banking-system-russia/section-12.md
   #   - file: banking-system-russia/chapter-3.md
-  - caption: Методология и организация научных исследований
-    chapters:
-    - file: methodology-research/README.md
-    - file: methodology-research/book-0-chap-0.md
-      sections:
-        - file: methodology-research/book-0-chap-1.md
-        - file: methodology-research/book-0-chap-2.md
-        - file: methodology-research/book-0-chap-3.md
-        - file: methodology-research/book-0-chap-4.md
-        - file: methodology-research/book-0-chap-5.md
-        - file: methodology-research/book-0-chap-6.md
-        - file: methodology-research/book-0-chap-7.md
-        - file: methodology-research/book-0-chap-8.md
-        - file: methodology-research/book-0-chap-9.md
-        - file: methodology-research/book-0-bib.md
-    - file: methodology-research/book-1.md
-    - file: methodology-research/control.md
+  # - caption: Методология и организация научных исследований
+  #   chapters:
+  #   - file: methodology-research/README.md
+  #   - file: methodology-research/book-0-chap-0.md
+  #     sections:
+  #       - file: methodology-research/book-0-chap-1.md
+  #       - file: methodology-research/book-0-chap-2.md
+  #       - file: methodology-research/book-0-chap-3.md
+  #       - file: methodology-research/book-0-chap-4.md
+  #       - file: methodology-research/book-0-chap-5.md
+  #       - file: methodology-research/book-0-chap-6.md
+  #       - file: methodology-research/book-0-chap-7.md
+  #       - file: methodology-research/book-0-chap-8.md
+  #       - file: methodology-research/book-0-chap-9.md
+  #       - file: methodology-research/book-0-bib.md
+  #   - file: methodology-research/book-1.md
+  #   - file: methodology-research/control.md
   - caption: ИРФМ
     numbered: false
     chapters:
