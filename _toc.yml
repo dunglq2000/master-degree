@@ -41,9 +41,9 @@ parts:
   #   - file: methodology-research/book-1.md
   #   - file: methodology-research/control.md
   # 
-  # - caption: ИРФМ
-  #   numbered: false
-  #   chapters:
+  - caption: ИРФМ
+    numbered: false
+    chapters:
   #   # - file: infores-finmon/README.md
   #   - file: infores-finmon/lectures.md
   #   - file: infores-finmon/lecture-intro.md
@@ -51,7 +51,7 @@ parts:
   #   - file: infores-finmon/lecture-5IS.md
   #   - file: infores-finmon/lecture-5.md
   #   - file: infores-finmon/lecture-6.md
-  #   - file: infores-finmon/control.md
+    - file: infores-finmon/control.md
   - caption: Актуальные подходы к обеспечению безопасности информации
     chapters:
     - file: infosec/lectures.md
