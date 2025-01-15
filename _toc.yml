@@ -52,24 +52,21 @@ parts:
   #   - file: infores-finmon/lecture-5.md
   #   - file: infores-finmon/lecture-6.md
   #  - file: infores-finmon/control.md
-  - caption: Актуальные подходы к обеспечению безопасности информации
-    chapters:
-    - file: infosec/lectures.md
-  - caption: Национальная система по ПОД/ФТ
-    chapters:
-    - file: CML-TF/test.md
-    - file: CML-TF/lecture-1.md
-    - file: CML-TF/lecture-2.md
-    - file: CML-TF/lecture-3.md
-    - file: CML-TF/lecture-4.md
-    - file: CML-TF/lecture-5.md
-    - file: CML-TF/lecture-6.md
-    - file: CML-TF/lecture-7.md
-    - file: CML-TF/lecture-8.md
-    - file: CML-TF/lecture-9.md
-    - file: CML-TF/lecture-10.md
-    - file: CML-TF/lecture-11.md
-    - file: CML-TF/lecture-12.md
+  # - caption: Национальная система по ПОД/ФТ
+  #   chapters:
+  #   - file: CML-TF/test.md
+  #   - file: CML-TF/lecture-1.md
+  #   - file: CML-TF/lecture-2.md
+  #   - file: CML-TF/lecture-3.md
+  #   - file: CML-TF/lecture-4.md
+  #   - file: CML-TF/lecture-5.md
+  #   - file: CML-TF/lecture-6.md
+  #   - file: CML-TF/lecture-7.md
+  #   - file: CML-TF/lecture-8.md
+  #   - file: CML-TF/lecture-9.md
+  #   - file: CML-TF/lecture-10.md
+  #   - file: CML-TF/lecture-11.md
+  #   - file: CML-TF/lecture-12.md
   - caption: Специальные технологии БД и ИС
     chapters:
     - file: database/README.md
@@ -77,9 +74,12 @@ parts:
     - file: database/lecture-2.md
     - file: database/lecture-3.md
     - file: database/lecture-4.md
-  - caption: Руский язык
+  - caption: Актуальные подходы к обеспечению безопасности информации
     chapters:
-    - file: russian/README.md
+    - file: infosec/lectures.md
+  # - caption: Руский язык
+  #   chapters:
+  #   - file: russian/README.md
   # - caption: Аудит безопасности ИС
   #   chapters:
   #   - file: audit-infosec/1-общее-представление-об-аудите-безопасности.md
