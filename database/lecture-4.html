@@ -316,19 +316,17 @@
 </ul>
 <hr class="docutils" />
 <p>Пять свойств соответствуют следующим доступным конечному пользователю (то есть вам) пяти методам.</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">partitions()</span></code> — возвращает массив объектов секций, составляющих части распределенного набора данных. Если речь идет об RDD с объектом partitioner, то значение индекса каждой из секций будет соответствовать значению, возвращаемому функцией getPartition для каждого ключа данных, относящегося к этой секции.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">iterator(p,</span> <span class="pre">parentIters)</span></code> — вычисляет элементы секции p с помощью заданных итераторов для каждой из ее родительских секций. Эта функция вызывается для вычисления каждой из секций данного RDD. Она не предназначена для непосредственного вызова пользователем, а применяется фреймворком Spark при вычислении действий.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">dependencies()</span></code> — возвращает последовательность объектов зависимостей. Благодаря зависимостям планировщик знает, как данный RDD зависит от других. Существует два вида зависимостей: узкие (объекты NarrowDependency), соответствующие секциям, зависящим от одной или небольшого количества родительских секций, и широкие (объекты ShuffleDependency), используемые в случаях, когда для вычисления секции необходима перегруппировка всех данных из родительских секций. Мы обсудим эти типы зависимостей в подразделе «Широкие и узкие зависимости» далее в текущем разделе.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">partitioner()</span></code> — возвращает вариантный тип Scala для объекта partitioner, если между element и partition объекта RDD есть связанная с ним функция, например hashPartitioner. Эта функция возвращает None для всех наборов RDD, чей тип не кортеж (которые не представляют данные типа «ключ — значение»). У представляющего HDFS-файл набора (реализован в NewHadoopRDD.scala) каждому блоку файла соответствует секция.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">preferredLocations(p)</span></code> — возвращает информацию о локальности данных секции p. Точнее говоря, эта функция возвращает последовательность строк с информацией о каждом из узлов, на которых хранятся фрагменты p. В случае представляющего HDFS-файл набора RDD каждая строка возвращаемого функцией preferredLocations результата представляет собой Hadoop-имя узла, в котором хранится данная секция.</p></li>
-</ul>
 <p>Năm thuộc tính tương ứng với năm phương thức sau đây có sẵn cho người dùng cuối (tức là bạn).</p>
 <ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">partitions()</span></code> — возвращает массив объектов секций, составляющих части распределенного набора данных. Если речь идет об RDD с объектом partitioner, то значение индекса каждой из секций будет соответствовать значению, возвращаемому функцией getPartition для каждого ключа данных, относящегося к этой секции.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">partitions()</span></code> - trả về một mảng các đối tượng phân vùng tạo nên các phần của tập dữ liệu phân tán. Nếu chúng ta đang nói về một RDD có đối tượng phân vùng thì giá trị chỉ mục của mỗi phân vùng sẽ tương ứng với giá trị được hàm getPartition trả về cho từng khóa dữ liệu liên quan đến phân vùng đó.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">iterator(p,</span> <span class="pre">parentIters)</span></code> — вычисляет элементы секции p с помощью заданных итераторов для каждой из ее родительских секций. Эта функция вызывается для вычисления каждой из секций данного RDD. Она не предназначена для непосредственного вызова пользователем, а применяется фреймворком Spark при вычислении действий.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">iterator(p,</span> <span class="pre">parentIters)</span></code> - tính toán các phần tử của phần p bằng cách sử dụng các trình vòng lặp đã cho cho từng phần cha của nó. Hàm này được gọi để tính toán từng phần của RDD nhất định. Nó không nhằm mục đích được người dùng gọi trực tiếp mà được sử dụng bởi khung Spark khi tính toán các hành động.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dependencies()</span></code> — возвращает последовательность объектов зависимостей. Благодаря зависимостям планировщик знает, как данный RDD зависит от других. Существует два вида зависимостей: узкие (объекты NarrowDependency), соответствующие секциям, зависящим от одной или небольшого количества родительских секций, и широкие (объекты ShuffleDependency), используемые в случаях, когда для вычисления секции необходима перегруппировка всех данных из родительских секций. Мы обсудим эти типы зависимостей в подразделе «Широкие и узкие зависимости» далее в текущем разделе.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">dependency()</span></code> - trả về một chuỗi các đối tượng phụ thuộc. Nhờ sự phụ thuộc, bộ lập lịch biết RDD nhất định phụ thuộc vào người khác như thế nào. Có hai loại phụ thuộc: hẹp (đối tượng Phụ thuộc hẹp), tương ứng với các phân vùng phụ thuộc vào một hoặc một số ít phân vùng cha và rộng (đối tượng ShuffleDependency), được sử dụng trong trường hợp cần tập hợp lại tất cả dữ liệu từ phân vùng cha để tính toán phân vùng. Chúng ta sẽ thảo luận về các loại phụ thuộc này trong tiểu mục “Phụ thuộc rộng và hẹp” ở phần sau của phần này.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">partitioner()</span></code> — возвращает вариантный тип Scala для объекта partitioner, если между element и partition объекта RDD есть связанная с ним функция, например hashPartitioner. Эта функция возвращает None для всех наборов RDD, чей тип не кортеж (которые не представляют данные типа «ключ — значение»). У представляющего HDFS-файл набора (реализован в NewHadoopRDD.scala) каждому блоку файла соответствует секция.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">partitioner()</span></code> - Trả về loại biến thể Scala cho một đối tượng phân vùng nếu có hàm liên kết giữa phần tử và phân vùng của đối tượng RDD, chẳng hạn như hashPartitioner. Hàm này trả về Không có cho tất cả các RDD có loại không phải là bộ dữ liệu (không biểu thị dữ liệu khóa-giá trị). Tập hợp đại diện cho tệp HDFS (được triển khai trong NewHadoopRDD.scala) có phần tương ứng cho mỗi khối của tệp.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">preferredLocations(p)</span></code> — возвращает информацию о локальности данных секции p. Точнее говоря, эта функция возвращает последовательность строк с информацией о каждом из узлов, на которых хранятся фрагменты p. В случае представляющего HDFS-файл набора RDD каждая строка возвращаемого функцией preferredLocations результата представляет собой Hadoop-имя узла, в котором хранится данная секция.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">preferredLocations(p)</span></code> - trả về thông tin về vị trí dữ liệu của phần p. Chính xác hơn, hàm này trả về một chuỗi các chuỗi có thông tin về từng nút lưu trữ các đoạn của p. Trong trường hợp một tập hợp RDD đại diện cho tệp HDFS, mỗi hàng kết quả được trả về bởi hàm PreferLocations đại diện cho tên Hadoop của nút trong đó phần này được lưu trữ.</p></li>
 </ul>
 </section>
@@ -351,34 +349,30 @@
 <section id="big-data">
 <h2>Форматы файлов Big Data<a class="headerlink" href="#big-data" title="Link to this heading">¶</a></h2>
 <p>Все многообразие файловых форматов Big Data (AVRO, Sequence, Parquet, ORC, RCFile) можно разделить на 2 категории: <strong>линейные</strong> (строковые) и <strong>колоночные</strong> (столбцовые).</p>
-<ul class="simple">
-<li><p><strong>В линейных форматах</strong> (AVRO, Sequence) строки данных одного типа хранятся вместе, образуя непрерывное хранилище. Даже если необходимо получить лишь некоторые значения из строки, все равно вся строка будет считана с диска в память.</p></li>
-<li><p>Линейный способ хранения данных обусловливает пониженную скорость операций чтения и выполнении избирательных запросов, а также больший расход дискового пространства.</p></li>
-<li><p>Степень сжатия информации у строковых форматов ниже, чем у столбцовых.</p></li>
-<li><p>Линейно-ориентированные форматы лучше всего подходят для потоковой записи, т.к. в случае сбоя информация может быть восстановлена (повторно синхронизирована) с последней точки синхронизации.</p></li>
-</ul>
 <p>Toàn bộ các định dạng tệp Dữ liệu lớn (AVRO, Sequence, Parquet, ORC, RCFile) có thể được chia thành 2 loại: <strong>tuyến tính</strong> (hàng) và <strong>cột</strong> (cột).</p>
 <ul class="simple">
+<li><p><strong>В линейных форматах</strong> (AVRO, Sequence) строки данных одного типа хранятся вместе, образуя непрерывное хранилище. Даже если необходимо получить лишь некоторые значения из строки, все равно вся строка будет считана с диска в память.</p></li>
 <li><p><strong>Ở định dạng tuyến tính</strong> (AVRO, Sequence), các hàng dữ liệu cùng loại được lưu trữ cùng nhau, tạo thành một kho lưu trữ liền kề. Ngay cả khi bạn chỉ cần lấy một số giá trị từ một chuỗi thì toàn bộ chuỗi đó vẫn sẽ được đọc từ đĩa vào bộ nhớ.</p></li>
+<li><p>Линейный способ хранения данных обусловливает пониженную скорость операций чтения и выполнении избирательных запросов, а также больший расход дискового пространства.</p></li>
 <li><p>Phương pháp lưu trữ dữ liệu tuyến tính khiến tốc độ đọc và thực hiện các truy vấn chọn lọc thấp hơn cũng như tiêu tốn nhiều dung lượng ổ đĩa hơn.</p></li>
+<li><p>Степень сжатия информации у строковых форматов ниже, чем у столбцовых.</p></li>
 <li><p>Mức độ nén thông tin đối với định dạng hàng thấp hơn so với định dạng cột.</p></li>
+<li><p>Линейно-ориентированные форматы лучше всего подходят для потоковой записи, т.к. в случае сбоя информация может быть восстановлена (повторно синхронизирована) с последней точки синхронизации.</p></li>
 <li><p>Các định dạng hướng dòng phù hợp nhất để ghi trực tuyến vì… Trong trường hợp xảy ra lỗi, thông tin có thể được khôi phục (đồng bộ lại) từ điểm đồng bộ hóa cuối cùng.</p></li>
 </ul>
 <figure class="align-default">
 <img alt="../_images/4-4.png" src="../_images/4-4.png" />
 </figure>
 <p><strong>В колоночно-ориентированных форматах</strong> (Parquet, RCFile, ORCFile) файл разрезается на несколько столбцов данных, которые хранятся вместе, но могут быть обработаны независимо друг от друга.</p>
-<ul class="simple">
-<li><p>Метод хранения информации позволяет пропускать ненужные столбцы при чтении данных, что существенно ускоряет чтение данных и отлично подходит в случае, когда необходим небольшой объем строк или выполняются избирательные запросы</p></li>
-<li><p>Такой формат чтения и записи занимает больше места в оперативной памяти, поскольку, чтобы получить столбец из нескольких строк, кэшируется каждая строка.</p></li>
-<li><p>Колоночно-ориентированные форматы не используются в средах потоковой обработки (Apache Kafka, Flume), т.к. после сбоя записи текущий файл не сможет быть восстановлен из-за отсутствия точек синхронизации.</p></li>
-<li><p>Колоночные файлы занимают меньше места на жестком диске вследствие более эффективного сжатия информации по столбцам</p></li>
-</ul>
 <p><strong>Ở các định dạng hướng theo cột</strong> (Parquet, RCFile, ORCFile), tệp được cắt thành nhiều cột dữ liệu được lưu trữ cùng nhau nhưng có thể được xử lý độc lập với nhau.</p>
 <ul class="simple">
+<li><p>Метод хранения информации позволяет пропускать ненужные столбцы при чтении данных, что существенно ускоряет чтение данных и отлично подходит в случае, когда необходим небольшой объем строк или выполняются избирательные запросы</p></li>
 <li><p>Phương pháp lưu trữ thông tin cho phép bạn bỏ qua các cột không cần thiết khi đọc dữ liệu, giúp tăng tốc đáng kể việc đọc dữ liệu và rất tuyệt vời khi cần một lượng hàng nhỏ hoặc thực hiện các truy vấn chọn lọc</p></li>
+<li><p>Такой формат чтения и записи занимает больше места в оперативной памяти, поскольку, чтобы получить столбец из нескольких строк, кэшируется каждая строка.</p></li>
 <li><p>Định dạng đọc-ghi này chiếm nhiều dung lượng RAM hơn vì mỗi hàng được lưu vào bộ đệm để lấy một cột gồm nhiều hàng.</p></li>
+<li><p>Колоночно-ориентированные форматы не используются в средах потоковой обработки (Apache Kafka, Flume), т.к. после сбоя записи текущий файл не сможет быть восстановлен из-за отсутствия точек синхронизации.</p></li>
 <li><p>Các định dạng hướng theo cột không được sử dụng trong môi trường xử lý luồng (Apache Kafka, Flume), vì Sau khi ghi thất bại, tệp hiện tại không thể được khôi phục do thiếu điểm đồng bộ hóa.</p></li>
+<li><p>Колоночные файлы занимают меньше места на жестком диске вследствие более эффективного сжатия информации по столбцам</p></li>
 <li><p>Tệp cột chiếm ít dung lượng trên ổ cứng của bạn hơn do nén thông tin qua các cột hiệu quả hơn</p></li>
 </ul>
 <figure class="align-default">
@@ -401,21 +395,18 @@
 <h3>Плюсы<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><strong>экономия места</strong> для хранения данных за счет эффективного сжатия информации по столбцам– в частности, по сравнению с Apache Avro, другим популярным форматом Big Data, Паркет сжимает данные примерно в 3,5 раза лучше;</p></li>
-<li><p><strong>высокая скорость</strong> чтения данных и отработки запросов, извлекающих определенные значения столбцов вместо считывания всего большого файла, что значительно ускоряет работу аналитика Big Data;</p></li>
-<li><p><strong>возможность реализации собственных схем данных</strong> и применения различных методов кодирования к различным столбцам;</p></li>
-<li><p><strong>поддержка нескольких языков программирования</strong> (C++, Java, Python, PHP и т.д.), а также популярных реймворков, например, Apache Thrift, что повышает гибкость формата;</p></li>
-<li><p><strong>возможность хранения данных не только в HDFS</strong>, для которой Parquet и был создан изначально, но и в других файловых системах (GlusterFs, NFS и пр.);</p></li>
-<li><p><strong>простота и удобство работы с файлами</strong> с помощью операций перемещения, резервного копирования и реплицирования;</p></li>
-<li><p><strong>поддержка Apache Spark «по умолчанию»</strong> (из коробки) обеспечивает возможность сохранить файл Big Data в другое облачное или локальное хранилище данных.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p><strong>tiết kiệm không gian</strong> để lưu trữ dữ liệu nhờ nén thông tin hiệu quả giữa các cột – đặc biệt, so với Apache Avro, một định dạng Dữ liệu lớn phổ biến khác, Parquet nén dữ liệu tốt hơn khoảng 3,5 lần;</p></li>
+<li><p><strong>высокая скорость</strong> чтения данных и отработки запросов, извлекающих определенные значения столбцов вместо считывания всего большого файла, что значительно ускоряет работу аналитика Big Data;</p></li>
 <li><p><strong>tốc độ cao</strong> đọc dữ liệu và chạy truy vấn truy xuất các giá trị cột cụ thể thay vì đọc toàn bộ tệp lớn, giúp tăng tốc đáng kể công việc của nhà phân tích Dữ liệu lớn;</p></li>
+<li><p><strong>возможность реализации собственных схем данных</strong> и применения различных методов кодирования к различным столбцам;</p></li>
 <li><p><strong>khả năng triển khai sơ đồ dữ liệu của riêng bạn</strong> và áp dụng các phương pháp mã hóa khác nhau cho các cột khác nhau;</p></li>
+<li><p><strong>поддержка нескольких языков программирования</strong> (C++, Java, Python, PHP и т.д.), а также популярных реймворков, например, Apache Thrift, что повышает гибкость формата;</p></li>
 <li><p><strong>hỗ trợ một số ngôn ngữ lập trình</strong> (C++, Java, Python, PHP, v.v.), cũng như các khung phổ biến, ví dụ: Apache Thrift, giúp tăng tính linh hoạt của định dạng;</p></li>
+<li><p><strong>возможность хранения данных не только в HDFS</strong>, для которой Parquet и был создан изначально, но и в других файловых системах (GlusterFs, NFS и пр.);</p></li>
 <li><p><strong>khả năng lưu trữ dữ liệu không chỉ trong HDFS</strong>, Parquet được tạo ban đầu mà còn trong các hệ thống tệp khác (GlusterFs, NFS, v.v.);</p></li>
+<li><p><strong>простота и удобство работы с файлами</strong> с помощью операций перемещения, резервного копирования и реплицирования;</p></li>
 <li><p><strong>đơn giản và thuận tiện khi làm việc với các tập tin</strong> bằng cách sử dụng các thao tác di chuyển, sao lưu và sao chép;</p></li>
+<li><p><strong>поддержка Apache Spark «по умолчанию»</strong> (из коробки) обеспечивает возможность сохранить файл Big Data в другое облачное или локальное хранилище данных.</p></li>
 <li><p><strong>Hỗ trợ Apache Spark “theo mặc định”</strong> (có sẵn) cung cấp khả năng lưu tệp Dữ liệu lớn vào một đám mây khác hoặc bộ lưu trữ dữ liệu cục bộ.</p></li>
 </ul>
 </section>
@@ -423,21 +414,18 @@
 <h3>Минусы<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><strong>строгая типизация данных</strong> – в связи с колоночной ориентацией файл формата Паркет ведёт себя как неизменяемая таблица или база данных, когда для столбца четко определён тип данных, при этом невозможно его изменить или скомбинировать, например, объединив вложенный json с простым строковым значением.</p></li>
-<li><p><strong>отсутствие встроенной (нативной) поддержки</strong> в других фреймворках Big Data, кромеApache Spark;</p></li>
-<li><p><strong>отсутствие возможности отслеживать изменение данных</strong> и эволюцию схемы, в отличие от, например, Avro, другого популярного форматом Big Data, изменение схемы данных которого легко прослеживается через графический интерфейс Sсhema Registry в Apache Kafka Confluent (об этом мы писали здесь). Отметим, что Apache Spark позволяет объединять схемы данных при изменении их со временем, но для этого требуется указать специальную опцию при чтении. А, чтобы что-то изменить в уже существующим файле, его придется перезаписать или добавить новую колонку.</p></li>
-<li><p><strong>не поддерживаются транзакции</strong>, поскольку, несмотря на некоторую схожесть с базой данных (в части строгой типизации), файлы формата Паркет– это частично размеченная информация.</p></li>
-<li><p><strong>сложность частичной потоковой передачи данных</strong> - необходимо передавать всю «группу строк»;</p></li>
-<li><p><strong>сильная привязка к метаданным</strong> – при повреждении, потере метаданных или изменении контрольной суммы группы строк, блока данных столбца или страницы данных, вся смысловая информация будет утеряна. Отметим, что, отключив в файловой системе вычисления контрольных сумм на каждом из уровней разбиения, можно значительно повысить производительность;</p></li>
-<li><p><strong>Паркетнеявляется человекочитаемым форматом</strong>, в отличие, например, от JSON или CSV.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p><strong>gõ dữ liệu nghiêm ngặt</strong> – do hướng cột, tệp định dạng Parquet hoạt động giống như một bảng hoặc cơ sở dữ liệu bất biến khi loại dữ liệu cho một cột được xác định rõ ràng và không thể thay đổi hoặc kết hợp nó, chẳng hạn như: bằng cách kết hợp json lồng nhau với ý nghĩa chuỗi đơn giản.</p></li>
+<li><p><strong>отсутствие встроенной (нативной) поддержки</strong> в других фреймворках Big Data, кромеApache Spark;</p></li>
 <li><p><strong>thiếu hỗ trợ tích hợp (gốc)</strong> trong các khung Dữ liệu lớn khác ngoại trừ Apache Spark;</p></li>
+<li><p><strong>отсутствие возможности отслеживать изменение данных</strong> и эволюцию схемы, в отличие от, например, Avro, другого популярного форматом Big Data, изменение схемы данных которого легко прослеживается через графический интерфейс Sсhema Registry в Apache Kafka Confluent (об этом мы писали здесь). Отметим, что Apache Spark позволяет объединять схемы данных при изменении их со временем, но для этого требуется указать специальную опцию при чтении. А, чтобы что-то изменить в уже существующим файле, его придется перезаписать или добавить новую колонку.</p></li>
 <li><p><strong>thiếu khả năng theo dõi các thay đổi dữ liệu</strong> và tiến hóa lược đồ, chẳng hạn như Avro, một định dạng Dữ liệu lớn phổ biến khác, những thay đổi trong lược đồ dữ liệu có thể dễ dàng theo dõi thông qua giao diện đồ họa Schema Register trong Apache Kafka Confluent (chúng tôi đã viết về điều này ở đây). Lưu ý rằng Apache Spark cho phép bạn hợp nhất các lược đồ dữ liệu khi chúng thay đổi theo thời gian, nhưng điều này yêu cầu bạn chỉ định một tùy chọn đặc biệt khi đọc. Và để thay đổi nội dung nào đó trong tệp hiện có, bạn sẽ phải ghi đè lên tệp đó hoặc thêm cột mới.</p></li>
+<li><p><strong>не поддерживаются транзакции</strong>, поскольку, несмотря на некоторую схожесть с базой данных (в части строгой типизации), файлы формата Паркет– это частично размеченная информация.</p></li>
 <li><p><strong>giao dịch không được hỗ trợ</strong>, bởi vì, mặc dù có một số điểm tương đồng với cơ sở dữ liệu (về mặt gõ nghiêm ngặt), các tệp định dạng Parquet vẫn được đánh dấu một phần thông tin.</p></li>
+<li><p><strong>сложность частичной потоковой передачи данных</strong> - необходимо передавать всю «группу строк»;</p></li>
 <li><p><strong>sự phức tạp của việc truyền dữ liệu một phần</strong> - cần phải truyền toàn bộ “nhóm hàng”;</p></li>
+<li><p><strong>сильная привязка к метаданным</strong> – при повреждении, потере метаданных или изменении контрольной суммы группы строк, блока данных столбца или страницы данных, вся смысловая информация будет утеряна. Отметим, что, отключив в файловой системе вычисления контрольных сумм на каждом из уровней разбиения, можно значительно повысить производительность;</p></li>
 <li><p><strong>ràng buộc chặt chẽ với siêu dữ liệu</strong> – nếu siêu dữ liệu bị hỏng, bị mất hoặc tổng kiểm tra của một nhóm hàng, khối dữ liệu cột hoặc trang dữ liệu bị thay đổi thì tất cả thông tin ngữ nghĩa sẽ bị mất. Lưu ý rằng bằng cách vô hiệu hóa tính toán tổng kiểm tra ở mỗi cấp độ phân vùng trong hệ thống tệp, hiệu suất có thể được cải thiện đáng kể;</p></li>
+<li><p><strong>Паркетнеявляется человекочитаемым форматом</strong>, в отличие, например, от JSON или CSV.</p></li>
 <li><p><strong>Sàn gỗ không phải là định dạng mà con người có thể đọc được</strong>, không giống như JSON hoặc CSV chẳng hạn.</p></li>
 </ul>
 </section>
@@ -454,17 +442,14 @@
 </figure>
 <ul class="simple">
 <li><p>Набор DataFrame представляет собой набор Dataset специальных объектов типа Row у которого отсутствует какая либо проверка типа на этапе компиляции.</p></li>
-<li><p>Наборы DataFrame представляют собой распределенные коллекции с отсутствующей в RDD дополнительной информацией о схеме.</p></li>
-<li><p>Посравнению с применением наборов RDD при обращении к DataFrame оптимизатор Spark может лучше понять наш код и наши данные, благодаря чему становится оптимизация лучше.</p></li>
-<li><p>Наборы DataFrame модуля Spark SQL позволяет работать с наборами DataFrame, не прибегая к регистрации временных таблиц или генерации SQL-выражений.</p></li>
-<li><p>НаборыDataFrame включает как преобразования, так и действия.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p>Tập DataFrame là tập hợp các Dataset gồm các đối tượng đặc biệt thuộc kiểu Row và không được kiểm tra kiểu ở giai đoạn biên dịch.</p></li>
+<li><p>Наборы DataFrame представляют собой распределенные коллекции с отсутствующей в RDD дополнительной информацией о схеме.</p></li>
 <li><p>DataFrames là các bộ sưu tập được phân phối với thông tin lược đồ bổ sung bị thiếu trong RDD.</p></li>
+<li><p>Посравнению с применением наборов RDD при обращении к DataFrame оптимизатор Spark может лучше понять наш код и наши данные, благодаря чему становится оптимизация лучше.</p></li>
 <li><p>So với việc sử dụng bộ RDD khi truy cập DataFrame, trình tối ưu hóa Spark có thể hiểu mã và dữ liệu của chúng tôi tốt hơn, dẫn đến tối ưu hóa tốt hơn.</p></li>
+<li><p>Наборы DataFrame модуля Spark SQL позволяет работать с наборами DataFrame, не прибегая к регистрации временных таблиц или генерации SQL-выражений.</p></li>
 <li><p>Bộ khung dữ liệu Mô-đun Spark SQL cho phép bạn làm việc với các bộ DataFrame mà không cần phải đăng ký các bảng tạm thời hoặc tạo biểu thức SQL.</p></li>
+<li><p>НаборыDataFrame включает как преобразования, так и действия.</p></li>
 <li><p>Bộ DataFrame bao gồm cả chuyển đổi và hành động.</p></li>
 </ul>
 <figure class="align-default">
@@ -472,13 +457,10 @@
 </figure>
 <ul class="simple">
 <li><p>Объект SparkSession обычно создается с помощью паттерна «Строитель» (Builder) и метода <code class="docutils literal notranslate"><span class="pre">getOrCreate()</span></code>, возвращающего текущий сеанс, если таковой уже существует.</p></li>
-<li><p>«Строитель» принимает на входе ключи конфигурации в строковом виде <code class="docutils literal notranslate"><span class="pre">config(key,</span> <span class="pre">value)</span></code> и сокращения, имеющиеся для множества распространенных параметров.</p></li>
-<li><p>enableHiveSupport(), обеспечивающее доступ к пользовательским функциям UDF СУБД Hive без необходимости установить Hive</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p>Đối tượng SparkSession thường được tạo bằng cách sử dụng mẫu Builder và phương thức <code class="docutils literal notranslate"><span class="pre">getOrCreate()</span></code> để trả về phiên hiện tại nếu đã tồn tại.</p></li>
+<li><p>«Строитель» принимает на входе ключи конфигурации в строковом виде <code class="docutils literal notranslate"><span class="pre">config(key,</span> <span class="pre">value)</span></code> и сокращения, имеющиеся для множества распространенных параметров.</p></li>
 <li><p>“Builder” nhận làm khóa cấu hình đầu vào ở dạng chuỗi <code class="docutils literal notranslate"><span class="pre">config(key,</span> <span class="pre">value)</span></code> và các chữ viết tắt có sẵn cho nhiều tham số phổ biến.</p></li>
+<li><p>enableHiveSupport(), обеспечивающее доступ к пользовательским функциям UDF СУБД Hive без необходимости установить Hive</p></li>
 <li><p>EnableHiveSupport(), cung cấp quyền truy cập vào các chức năng người dùng Hive DBMS UDF mà không cần cài đặt Hive</p></li>
 </ul>
 <figure class="align-default">
@@ -486,13 +468,10 @@
 </figure>
 <ul class="simple">
 <li><p>Объект SparkContext Можно использовать его для создания RDD из локального объекта Scala (с применением одного из методов makeRDD или parallelize) или с помощью чтения данных из устойчивого.</p></li>
-<li><p>Объекты DataFrame и Dataset можно читать, задействуя SparkSession — объект Spark SQL, эквивалентный SparkContext.</p></li>
-<li><p>ВSpark метод <code class="docutils literal notranslate"><span class="pre">createDataFrame()</span></code> используется для создания DataFrame вручную. Используя этот метод, вы можете создать Spark DataFrame из уже существующих объектов данных RDD.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p>Đối tượng SparkContext Bạn có thể sử dụng nó để tạo RDD từ một đối tượng Scala cục bộ (sử dụng một trong các phương thức makeRDD hoặc song song) hoặc bằng cách đọc dữ liệu từ Persist.</p></li>
+<li><p>Объекты DataFrame и Dataset можно читать, задействуя SparkSession — объект Spark SQL, эквивалентный SparkContext.</p></li>
 <li><p>Các đối tượng DataFrame và Dataset có thể được đọc bằng SparkSession, một đối tượng Spark SQL tương đương với SparkContext.</p></li>
+<li><p>ВSpark метод <code class="docutils literal notranslate"><span class="pre">createDataFrame()</span></code> используется для создания DataFrame вручную. Используя этот метод, вы можете создать Spark DataFrame из уже существующих объектов данных RDD.</p></li>
 <li><p>Trong Spark, phương thức <code class="docutils literal notranslate"><span class="pre">createDataFrame()</span></code> được sử dụng để tạo DataFrame theo cách thủ công. Sử dụng phương pháp này, bạn có thể tạo Spark DataFrame từ các đối tượng dữ liệu RDD hiện có.</p></li>
 </ul>
 <figure class="align-default">

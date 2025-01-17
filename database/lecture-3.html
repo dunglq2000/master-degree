@@ -315,15 +315,12 @@ quá trình học tập cho các nhà phát triển</p>
 </div></blockquote>
 <ul class="simple">
 <li><p><strong>скорость</strong> - в Spark высокая скорость обработки данных достигается несколькими способами. Во-первых, внутренняя реализация Spark значительно выигрывает от недавних огромных успехов индустрии аппаратного обеспечения по части повышения производительности процессоров и памяти. Во вторых, планировщик Spark и оптимизатор запросов Catalyst создает эффективный план вычислений, который можно разложить на параллельно выполняемые задачи. Благодаря тому, что все промежуточные результаты сохраняются в памяти и для них нет дискового ввода-вывода, значительно повышается производительность всех вычислений.</p></li>
-<li><p><strong>простота использования</strong> — Spark предоставляет фундаментальную абстракцию логической структуры данных, называемой устойчивым распределенным набором данных (анг. Resilient Distributed Dataset, RDD), на основе которой строятся все другие абстракции структурированных данных более высокого уровня, такие как фреймы данных (DataFrame) и наборы данных (DataSets). Предоставляя набор преобразований и действий в виде операций, Spark предлагает простую модель программирования, которую можно использовать с целью создания приложений для обработки больших данных на знакомых языках программирования.</p></li>
-<li><p><strong>модульность</strong> - операции Spark могут применяться ко многим типам рабочих нагрузок и выражаться на любом из поддерживаемых языков программирования: Scala, Java, Python, SQL и R. Spark предлагает унифицированные библиотеки с хорошо документированными API-интерфейсами.</p></li>
-<li><p><strong>расширяемость</strong> - Spark фокусируется на своем быстром механизме параллельных вычислений, а не на хранилище. В отличии от Apache Hadoop, который включает в себя как хранилище, так и вычисления, в Spark происходит их разделение. Это означает, что можно использовать Spark для чтения данных, хранящихся в множестве источников.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p><strong>tốc độ</strong> - trong Spark, tốc độ xử lý dữ liệu cao đạt được theo nhiều cách. Đầu tiên, việc triển khai nội bộ của Spark được hưởng lợi rất nhiều từ những bước tiến lớn gần đây của ngành phần cứng trong việc cải thiện hiệu suất bộ xử lý và bộ nhớ. Thứ hai, bộ lập lịch Spark và trình tối ưu hóa truy vấn Catalyst tạo ra một kế hoạch tính toán hiệu quả có thể được phân tách thành các tác vụ song song. Do thực tế là tất cả các kết quả trung gian đều được lưu trữ trong bộ nhớ và không có I/O đĩa cho chúng nên hiệu suất của tất cả các phép tính được cải thiện đáng kể.</p></li>
+<li><p><strong>простота использования</strong> — Spark предоставляет фундаментальную абстракцию логической структуры данных, называемой устойчивым распределенным набором данных (анг. Resilient Distributed Dataset, RDD), на основе которой строятся все другие абстракции структурированных данных более высокого уровня, такие как фреймы данных (DataFrame) и наборы данных (DataSets). Предоставляя набор преобразований и действий в виде операций, Spark предлагает простую модель программирования, которую можно использовать с целью создания приложений для обработки больших данных на знакомых языках программирования.</p></li>
 <li><p><strong>dễ sử dụng</strong> - Spark cung cấp sự trừu tượng hóa cơ bản của cấu trúc dữ liệu logic, được gọi là Tập dữ liệu phân tán linh hoạt (RDD), trên đó tất cả các trừu tượng hóa dữ liệu có cấu trúc cấp cao hơn khác, chẳng hạn như DataFrames, được xây dựng, và các tập dữ liệu (Bộ dữ liệu). Bằng cách cung cấp một tập hợp các phép biến đổi và hành động dưới dạng hoạt động, Spark cung cấp một mô hình lập trình đơn giản có thể được sử dụng để xây dựng các ứng dụng dữ liệu lớn bằng các ngôn ngữ lập trình quen thuộc.</p></li>
+<li><p><strong>модульность</strong> - операции Spark могут применяться ко многим типам рабочих нагрузок и выражаться на любом из поддерживаемых языков программирования: Scala, Java, Python, SQL и R. Spark предлагает унифицированные библиотеки с хорошо документированными API-интерфейсами.</p></li>
 <li><p><strong>tính mô-đun</strong> - Hoạt động của Spark có thể được áp dụng cho nhiều loại khối lượng công việc và được thể hiện bằng bất kỳ ngôn ngữ lập trình nào được hỗ trợ: Scala, Java, Python, SQL và R. Spark cung cấp các thư viện hợp nhất với các API được ghi chép rõ ràng.</p></li>
+<li><p><strong>расширяемость</strong> - Spark фокусируется на своем быстром механизме параллельных вычислений, а не на хранилище. В отличии от Apache Hadoop, который включает в себя как хранилище, так и вычисления, в Spark происходит их разделение. Это означает, что можно использовать Spark для чтения данных, хранящихся в множестве источников.</p></li>
 <li><p><strong>khả năng mở rộng</strong> - Spark tập trung vào công cụ tính toán song song nhanh hơn là lưu trữ. Không giống như Apache Hadoop, bao gồm cả lưu trữ và tính toán, Spark tách chúng ra. Điều này có nghĩa là bạn có thể sử dụng Spark để đọc dữ liệu được lưu trữ ở nhiều nguồn.</p></li>
 </ul>
 </section>
@@ -359,6 +356,7 @@ quá trình học tập cho các nhà phát triển</p>
 <section id="id3">
 <h2>Архитектура Apache Spark<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
 <p><strong>Apache Spark</strong> — это программное средство распределенной обработки данных компоненты которого совместно работают на кластере машин</p>
+<p><strong>Apache Spark</strong> là phần mềm xử lý dữ liệu phân tán có các thành phần hoạt động cùng nhau trên một cụm máy</p>
 <p><strong>Основные компоненты</strong></p>
 <ul class="simple">
 <li><p>Приложение Spark</p></li>
@@ -367,10 +365,6 @@ quá trình học tập cho các nhà phát triển</p>
 <li><p>Менеджер кластера</p></li>
 <li><p>Исполнитель Spark</p></li>
 </ul>
-<figure class="align-default">
-<img alt="../_images/architecture-apache-spark.png" src="../_images/architecture-apache-spark.png" />
-</figure>
-<p><strong>Apache Spark</strong> là phần mềm xử lý dữ liệu phân tán có các thành phần hoạt động cùng nhau trên một cụm máy</p>
 <p><strong>Thành phần chính</strong></p>
 <ul class="simple">
 <li><p>Ứng dụng tia lửa</p></li>
@@ -379,6 +373,9 @@ quá trình học tập cho các nhà phát triển</p>
 <li><p>Người quản lý cụm</p></li>
 <li><p>Nghệ sĩ Spark</p></li>
 </ul>
+<figure class="align-default">
+<img alt="../_images/architecture-apache-spark.png" src="../_images/architecture-apache-spark.png" />
+</figure>
 <p>На высоком уровне архитектуры Spark — <strong>приложение Spark</strong>, которое состоит из ведущего процесса, содержащего высокоуровневую логику Spark, и набора процессов исполнителей, которые могут быть разбросаны по узлам кластера. Сама программа Spark работает на узле драйвера и отправляет команды исполнителям. На одном кластере можно запустить в конкурентном режиме несколько приложений Spark.</p>
 <p>Ở cấp độ cao của kiến ​​trúc Spark, <strong>ứng dụng Spark</strong> bao gồm một quy trình chính chứa logic Spark cấp cao và một tập hợp các quy trình thực thi có thể nằm rải rác trên các nút cụm. Bản thân chương trình Spark chạy trên nút trình điều khiển và gửi lệnh đến người thực thi. Bạn có thể chạy đồng thời nhiều ứng dụng Spark trên một cụm.</p>
 <p><strong>Драйвер Spark</strong> как часть приложения Spark, отвечающая за создание экземпляра сеанса Spark (SparkSession), выполняет несколько ролей:</p>
@@ -417,8 +414,9 @@ quá trình học tập cho các nhà phát triển</p>
 <section id="id4">
 <h2>Отложенные вычисления<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
 <p>Вместо вычисления каждого преобразования сразу же после того, как его задаст драйверная программа, Spark вычисляет RDD отложенным образом, рассчитывая результат преобразований набора только при вызове действия.</p>
-<p><strong>Действие</strong> — операция Spark, возвращающая что-либо внешней по отношению к Spark (к исполнителям Spark) системе. Примером может послужить возврат данных драйверу (такими операциями, как count или collect) или запись данных во внешнюю систему хранения. Действия вызывают срабатывание планировщика, который строит ориентированный ациклический граф (directed acyclic graph, DAG) на основе зависимостей между преобразованиями.</p>
 <p>Thay vì tính toán từng phép biến đổi ngay sau khi chương trình trình điều khiển chỉ định nó, Spark đánh giá RDD một cách lười biếng, chỉ tính kết quả của các phép biến đổi tập hợp khi hành động được gọi.</p>
+<hr class="docutils" />
+<p><strong>Действие</strong> — операция Spark, возвращающая что-либо внешней по отношению к Spark (к исполнителям Spark) системе. Примером может послужить возврат данных драйверу (такими операциями, как count или collect) или запись данных во внешнюю систему хранения. Действия вызывают срабатывание планировщика, который строит ориентированный ациклический граф (directed acyclic graph, DAG) на основе зависимостей между преобразованиями.</p>
 <p><strong>Hành động</strong> là một thao tác Spark trả về một thứ gì đó cho hệ thống bên ngoài Spark (cho người thực thi Spark). Một ví dụ sẽ là trả lại dữ liệu cho trình điều khiển (với các thao tác như đếm hoặc thu thập) hoặc ghi dữ liệu vào hệ thống lưu trữ bên ngoài. Các hành động sẽ kích hoạt bộ lập lịch, bộ lập lịch này sẽ xây dựng biểu đồ chu kỳ có hướng (DAG) dựa trên sự phụ thuộc giữa các phép biến đổi.</p>
 </section>
 <section id="id5">
@@ -437,13 +435,10 @@ quá trình học tập cho các nhà phát triển</p>
 <h2>Хранение данных в памяти<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
 <ul class="simple">
 <li><p><strong>В оперативной памяти в виде десериализованных Java-объектов</strong>. Наиболее очевидный способ хранения объектов в наборе RDD — в виде исходных десериализованных Java-объектов, определяемых драйверной программной. Это самая быстродействующая форма хранения данных в оперативной памяти, поскольку экономит требуемое на сериализацию время.</p></li>
-<li><p><strong>В виде сериализованных данных</strong>. При перемещении по сети объекты Spark преобразуются в потоки байтов с помощью стандартной библиотеки сериализации языка Java. Это, вероятно, более медленно работающий подход, поскольку чтение сериализованных данных требует от CPU большего объема действий, чем чтение десериализованных. Однако это зачастую выгоднее в смысле используемой памяти, поскольку пользователь получает возможность выбирать наиболее эффективное представление.</p></li>
-<li><p><strong>На диске</strong>. Наборы RDD, секции которых слишком велики для хранения в оперативной памяти каждого из исполнителей, можно записать на диск. Это явно более медленный метод в случае повторяемых вычислений, но, вероятно, и более отказоустойчивый при длинных последовательностях преобразований и, наверное, единственный разумный вариант при очень больших объемах вычислений.</p></li>
-</ul>
-<hr class="docutils" />
-<ul class="simple">
 <li><p><strong>Trong RAM ở dạng các đối tượng Java được giải tuần tự hóa</strong>. Cách rõ ràng nhất để lưu trữ các đối tượng trong RDD là lưu trữ các đối tượng Java được giải tuần tự hóa ban đầu được xác định bởi phần mềm trình điều khiển. Đây là hình thức lưu trữ dữ liệu trong bộ nhớ nhanh nhất vì nó tiết kiệm thời gian cần thiết cho việc tuần tự hóa.</p></li>
+<li><p><strong>В виде сериализованных данных</strong>. При перемещении по сети объекты Spark преобразуются в потоки байтов с помощью стандартной библиотеки сериализации языка Java. Это, вероятно, более медленно работающий подход, поскольку чтение сериализованных данных требует от CPU большего объема действий, чем чтение десериализованных. Однако это зачастую выгоднее в смысле используемой памяти, поскольку пользователь получает возможность выбирать наиболее эффективное представление.</p></li>
 <li><p><strong>Là dữ liệu được tuần tự hóa</strong>. Khi các đối tượng Spark di chuyển trên mạng, chúng được chuyển đổi thành luồng byte bằng thư viện tuần tự hóa ngôn ngữ Java tiêu chuẩn. Đây có thể là một cách tiếp cận chậm hơn vì việc đọc dữ liệu được tuần tự hóa đòi hỏi nhiều công việc của CPU hơn là đọc dữ liệu đã được giải tuần tự. Tuy nhiên, điều này thường có lợi hơn về mặt sử dụng bộ nhớ, vì người dùng có thể chọn cách trình bày hiệu quả nhất.</p></li>
+<li><p><strong>На диске</strong>. Наборы RDD, секции которых слишком велики для хранения в оперативной памяти каждого из исполнителей, можно записать на диск. Это явно более медленный метод в случае повторяемых вычислений, но, вероятно, и более отказоустойчивый при длинных последовательностях преобразований и, наверное, единственный разумный вариант при очень больших объемах вычислений.</p></li>
 <li><p><strong>Trên đĩa</strong>. Các bộ RDD có phần quá lớn để có thể lưu trữ trong RAM của mỗi bộ thực thi có thể được ghi vào đĩa. Đây rõ ràng là một phương pháp chậm hơn trong trường hợp tính toán lặp đi lặp lại, nhưng có lẽ có khả năng chịu lỗi cao hơn đối với các chuỗi biến đổi dài và có lẽ là lựa chọn hợp lý duy nhất cho khối lượng tính toán rất lớn.</p></li>
 </ul>
 </section>
