@@ -67,13 +67,13 @@ parts:
   #   - file: CML-TF/lecture-10.md
   #   - file: CML-TF/lecture-11.md
   #   - file: CML-TF/lecture-12.md
-  - caption: Специальные технологии БД и ИС
-    chapters:
-    - file: database/README.md
-    - file: database/lecture-1.md
-    - file: database/lecture-2.md
-    - file: database/lecture-3.md
-    - file: database/lecture-4.md
+  # - caption: Специальные технологии БД и ИС
+  #   chapters:
+  #   - file: database/README.md
+  #   - file: database/lecture-1.md
+  #   - file: database/lecture-2.md
+  #   - file: database/lecture-3.md
+  #   - file: database/lecture-4.md
   - caption: Актуальные подходы к обеспечению безопасности информации
     chapters:
     - file: infosec/lectures.md
